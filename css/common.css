@@ -1,0 +1,294 @@
+@charset "utf-8";
+
+/*Mont*/
+@font-face {
+    font-family: 'Mont';
+    src: url('../font/Mont-ExtraLightDEMO.woff2') format('woff2'),
+        url('../font/Mont-ExtraLightDEMO.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Mont';
+    src: url('../font/Mont-HeavyDEMO.woff2') format('woff2'),
+        url('../font/Mont-HeavyDEMO.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+/*S-CoreDream*/
+@font-face {
+  font-family: 'S-Core Dream';
+  src: url('../font/S-CoreDream-1Thin.woff2') format('woff2'),
+       url('../font/S-CoreDream-1Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'S-Core Dream';
+  src: url('../font/S-CoreDream-2ExtraLight.woff2') format('woff2'),
+       url('../font/S-CoreDream-2ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'S-Core Dream';
+  src: url('../font/S-CoreDream-3Light.woff2') format('woff2'),
+       url('../font/S-CoreDream-3Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'S-Core Dream';
+  src: url('../font/S-CoreDream-4Regular.woff2') format('woff2'),
+       url('../font/S-CoreDream-4Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'S-Core Dream';
+  src: url('../font/S-CoreDream-5Medium.woff2') format('woff2'),
+       url('../font/S-CoreDream-5Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'S-Core Dream';
+  src: url('../font/S-CoreDream-6Bold.woff2') format('woff2'),
+       url('../font/S-CoreDream-6Bold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'S-Core Dream';
+  src: url('../font/S-CoreDream-7ExtraBold.woff2') format('woff2'),
+       url('../font/S-CoreDream-7ExtraBold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'S-Core Dream 8';
+  src: url('../font/S-CoreDream-8Heavy.woff2') format('woff2'),
+       url('../font/S-CoreDream-8Heavy.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'S-Core Dream';
+  src: url('../font/S-CoreDream-9Black.woff2') format('woff2'),
+       url('../font/S-CoreDream-9Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*스크롤 부드럽게 처리*/
+html{
+  scroll-behavior: smooth;
+}
+html,
+body{
+  font-family: 'Jost','Mont','S-Core Dream',sans-serif;
+  font-size: 62.5%;
+  font-weight: 400;
+  color: #222;  
+}
+#wrap{
+  overflow-x: hidden;
+}
+/*헤더영역*/
+#header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+#header .header_inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+  padding: 26px 74px;
+  width: 100%;
+}
+/*gnb*/
+#header .header_inner #gnb>ul{
+  display: flex;
+  justify-content: space-between;
+}
+#header .header_inner #gnb>ul>li{
+  position: relative;
+}
+#header .header_inner #gnb>ul>li>a{  
+  display: block;
+  padding: 5px 18px;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+#header .header_inner #gnb>ul>li:first-child a{
+  padding-left: 0;
+}
+#header .header_inner h1 a{
+  display: block;
+}
+#header .header_inner h1 img{
+  position: absolute;
+  top: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  line-height: 0;
+}
+/*depth02(서브메뉴)*/
+#header .header_inner #gnb>ul>li:hover>a{
+  transform: scale(0.9);
+  transition: 0.2s linear;
+  color: #7A9783;
+}
+#header .header_inner #gnb>ul>li>ul.depth02{
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 15%;
+  width: 100%;
+  padding: 14px 0;  
+  z-index:20;
+}
+#header .header_inner #gnb>ul>li>ul.depth02>li>a{
+  display: block;
+  padding-top: 8px;
+  font-size: 1.4rem;
+  color: #333;
+}
+#header .header_inner #gnb>ul>li>ul.depth02>li:hover a{
+  font-weight: 500;
+  color: #222;
+}
+#header .header_inner #gnb>ul>li>ul.depth02>li::after{
+  content: "";
+  position: absolute;
+  transition: 0.3s linear;
+  width: 100px;
+}
+#header .header_inner #gnb>ul>li>ul.depth02>li:hover::after{
+  width: 12px;
+  background-color: #222;
+  height: 1px;
+}
+#header #menuBg{
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 76px;
+  width: 100%;
+  height: 240px;
+  border-top: 1px solid #fff;
+  background-color: rgba(255, 255, 255, 0.4);
+  z-index: 10;
+}
+/*util 영역*/
+#header .header_inner .util_area ul{
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+#header .header_inner .util_area li button{
+  border: 0;
+  cursor: pointer;
+}
+
+/*퀵영역*/
+#quick_area{
+  position: fixed;
+  right: 5px;
+  bottom: 10px;
+  z-index: 50;
+}
+#quick_area .talk span{
+  position: relative;
+  display: block;
+  transition: all 0.1s ease;
+}
+#quick_area .talk a,
+#quick_area .talk span,
+#quick_area .talk img{  
+  display: block;
+}
+#quick_area .btn_top{
+  text-align: center;
+  cursor: pointer;
+  line-height: 0;
+}
+/*푸터영역*/
+#footer{
+  padding: 55px 0 30px;
+  background-color: #D4D9D0;
+  color: #333;
+}
+#footer .footer_inner{
+  margin: 0 auto;
+  width: 1440px;
+}
+#footer .footer_inner ul{
+  display: flex;
+  justify-content: space-between; 
+}
+#footer .footer_inner .footer_logo{
+  padding-top: 5px;
+}
+#footer .footer_inner .company_info{
+  font-size: 1.5rem;
+  line-height: 26px;
+}
+#footer .footer_inner .cs h4{
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+#footer .footer_inner .cs strong{
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+#footer .footer_inner .cs p{
+  padding-top: 10px;
+  font-size: 1.4rem;
+  line-height: 24px;
+}
+#footer .footer_inner .fnb a{
+  display: block;
+  padding: 2px 0;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+#footer .footer_inner .partnership h4{
+  padding-top: 20px;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+#footer .footer_inner .partnership p{
+  font-size: 1.8rem;
+}
+#footer .footer_inner .sns_area img{
+  width: 40px;
+  height: 40px;
+}
+#footer .footer_inner .sns_area a{
+  padding-right: 10px;
+}
+#footer .footer_inner .sns_area li:last-child{
+  padding-right: 0;
+}
+#footer .footer_inner .copy{
+  padding-top: 80px;
+  font-size: 1.6rem;
+  text-align: center;
+}

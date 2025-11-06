@@ -1,0 +1,644 @@
+@charset "UTF-8";
+
+@media (hover: hover){
+  #header .header_inner #gnb > ul > li:hover > a{
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #665140;
+  }
+  #header .header_inner #gnb > ul > li:hover::after{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    width: 4px;
+    height: 4px;
+    margin: 10px 35px;
+    border-radius: 50%;
+    background-color: #665140;
+    opacity: 1;
+    visibility: visible;
+  }
+  #header .header_inner #gnb > ul li .depth02 li:hover a{
+    display: block;
+    width: 100%;
+    padding: 6px 0;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #fff;
+    background-color: #665140;
+  }
+#container .brand_concept a:hover {
+    font-weight: 500;
+    background-color: #fff;
+    color: #665140;
+    transition: all 0.5s linear;
+  }
+#quick_area .talk span:hover::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 102px;
+    height: 102px;
+    border: 1px solid #917056;
+    border-radius: 50%;
+    animation: talk 0.5s ease;
+  }
+}
+/*breakpoint 1440*/
+@media screen and (max-width: 1440px){
+  #wrap{
+    width: 100%;
+    min-width: auto;
+  }
+  #header {
+    padding: 36px 60px;
+  }
+  #container .main_visual .txt_box>h2{  
+    font-size: 6.4rem;  
+  }
+  #container .main_visual .txt_box>span{
+    padding-bottom: 12px;
+    font-size: 1.0rem;
+    text-align: right;
+  }
+  #container .main_visual .txt_box>strong{
+    font-size: 4.0rem;
+    font-weight: 200;
+    line-height: 44px;  
+  }
+  #container .main_visual .txt_box>p{
+    margin-top: 16px;
+    font-size: 1.6rem;
+    line-height: 20px;
+  }
+  #container .signature_menu .menu_list{
+    padding: 0 22px 0 22px;   
+    word-break: keep-all;
+  }
+  #container .signature_menu .menu_list ul li img{    
+    width: 70%;
+  }
+  #container .signature_menu .menu_list ul li.swiper-slide-next img{
+    width: 100%;
+  }
+  #container .signature_menu .menu_list ul li.swiper-slide-next b{
+    padding-top: 32px;
+    font-size: 2.4rem;
+  }
+  #container .signature_menu .menu_list ul li.swiper-slide-next p{
+    font-size: 1.6rem;
+  }
+  #container .signature_menu .menu_list b{
+    font-size: 2.0rem;
+  }
+  #container .signature_menu .menu_list i{
+    font-size: 1.2rem;
+  }
+  #container .signature_menu .menu_list p{
+    padding-top: 12px;
+    font-size: 1.5rem;
+  }
+  #container .signature_menu .right_area .txt{
+    padding: 60px 0 0 48px;
+  }
+  #container .signature_menu .right_area .txt>h3{
+    font-size: 4.5rem;
+  }
+  #container .signature_menu .right_area .txt>p{
+    margin-top: 18px;
+    font-size: 2.8rem;
+    line-height: 36px;
+  }
+  #container .brand_concept{
+    height: 100%;
+  }
+  #footer{
+    padding: 64px 110px;
+  }
+  #footer .footer_inner{
+    width: 100%;
+  }
+}
+/*breakpoint 1200*/
+@media screen and (max-width: 1200px){
+  #header {
+    padding: 36px 40px;
+  }
+  #header .header_inner #gnb{
+    padding: 0;
+  } 
+  #header .header_inner #gnb > ul > li > a{  
+    padding: 8px 24px;
+  }
+  #header .header_inner #gnb > ul > li::after{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    margin: 6px 20px;
+    border-radius: 50%;
+    background-color: #665140;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s linear;
+  }
+  #header .header_inner #gnb > ul > li:hover::after{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    width: 4px;
+    height: 4px;
+    margin: 6px 20px;
+    border-radius: 50%;
+    background-color: #665140;
+    opacity: 1;
+    visibility: visible;
+  }
+  #container .main_visual .txt_box{
+    top: 34%;
+  }
+  #container .signature_menu{
+    display: flex;
+    flex-direction: column;
+  }  
+  #container .signature_menu .right_area{
+    order: 1;
+  }
+  #container .signature_menu .menu_list{
+    order: 2;
+  }  
+  #container .signature_menu .right_area img{
+    display: none;
+  }
+  #container .signature_menu .right_area .onlyPC{
+    display: none;
+  }
+  #container .signature_menu .right_area{
+    width: 100%;
+  }
+  #container .signature_menu .right_area .txt{
+    position: static;
+    width: 100%;
+    padding: 110px 0 0;
+    text-align: center;
+    white-space: nowrap;
+  }
+  #container .signature_menu .right_area .txt h3{    
+    font-size: 5.0rem;
+    font-weight: 600;
+    color: #23503C;
+  }
+  #container .signature_menu .right_area .txt p{
+    margin: 20px 0;
+    font-size: 2.4rem;
+    color: #333
+  }
+  #container .signature_menu .menu_list{
+    padding: 20px 0 60px 0;
+  }
+  #container .signature_menu .menu_list ul{
+    align-items: center;
+  }
+  #container .signature_menu .menu_list ul li img{
+    padding-bottom: 40px;
+    width: 70%;
+  }
+  #container .signature_menu .menu_list ul li.swiper-slide-next img{
+    width: 100%;
+  }
+  #container .signature_menu .menu_list ul li.swiper-slide-next b{
+    padding-top: 22px;
+    font-size: 2.2rem;
+  }
+  #container .signature_menu .menu_list ul li.swiper-slide-next i{
+    font-size: 1.2rem;
+  }
+  #container .signature_menu .menu_list ul li.swiper-slide-next p{
+    font-size: 1.6rem;
+  }
+  #container .signature_menu .menu_list .swiper-button-prev{
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+  }
+  #container .signature_menu .menu_list .swiper-button-next{
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+  }
+  #container .signature_menu .menu_list b{
+    font-size: 2.0rem;
+  }
+  #container .signature_menu .menu_list i{
+    font-size: 1.2rem;
+  }
+  #container .signature_menu .menu_list p{
+    padding-top: 10px;
+    font-size: 1.4rem;
+  }
+  #container .news_area{
+    width: 100%;
+    padding: 120px 24px 140px;
+  }
+  #container .news_area p{
+    margin: 16px 0 50px;
+    font-size: 2.4rem;
+  }
+  #container .brand_concept{
+    padding: 120px 0 110px;
+  }
+  #container .marquee_wrapper .marquee_track{
+    display: inline-flex;
+    margin: 80px 0;
+    animation-duration: 15s; 
+  }
+  #container .marquee_wrapper .marquee_track img{
+    height: 100px;
+  }
+  #container .youtube_video video{
+    margin: 0 auto 120px;
+  }
+  #footer{
+    padding: 60px 50px;
+  }
+}
+/*breakpoint 960*/
+@media screen and (max-width: 960px){
+  #header {
+    position: relative;
+    padding: 20px;
+  }
+  #header .header_inner{
+    padding-left: 0;
+  }  
+  #header .header_inner #gnb{
+    display: none;
+  }
+  #header .header_inner .sns_area{
+    display: none;
+  }   
+  #header .header_inner .btn_hamburger{
+    position: absolute;
+    right: 20px;
+    top: 34%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 20px;
+    opacity: 0;
+    visibility: hidden;
+    cursor: pointer;
+    z-index: 210;
+  }
+  #header .header_inner .btn_hamburger {
+    opacity: 1;
+    visibility: visible;
+  }
+  #header .header_inner .btn_hamburger span{
+    width: 100%;
+    height: 2px;
+    background-color: #665140;
+    transition: 0.3s;
+  }
+  #header .btn_hamburger.open span:first-child {
+    transform: translateY(9px) rotate(45deg);
+    background-color: #fff;
+  }
+  #header .btn_hamburger.open span:nth-child(2) {
+    opacity: 0;
+  }
+  #header .btn_hamburger.open span:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+    background-color: #fff;
+  }
+   #header .header_inner .mo_menu_container {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 200;
+    width: 85%;
+    height: 100vh;
+    padding: 60px 50px;
+    background-color: #665140;
+    transform: translateX(100%);
+    transition: 0.3s ease-out;
+  }
+  #header .header_inner .mo_menu_container.open {
+    transform: translateX(0);
+  }
+  #header .header_inner .mo_menu_container .mo_gnb>ul>li{
+    padding-bottom: 18px;
+  }
+  #header .header_inner .mo_menu_container .mo_gnb ul>li a{
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #fff;
+  }
+  #header .header_inner .mo_menu_container .mo_gnb li>.depth02{
+    display: none;
+    padding: 10px 0;
+  }
+  #header .header_inner .mo_menu_container .mo_gnb li>.depth02 a{
+    display: block;
+    padding-top: 5px;
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-align: left;
+  }
+  #container .main_visual .swiper-slide img{
+    height: 60vh;
+  }
+  #container .main_visual > .arrow_box{
+    top: 80.5%;
+    right: 8%;
+  }
+  #container .signature_menu .right_area .txt{
+    padding: 80px 0 0;
+  }
+  #container .signature_menu .right_area .txt p{
+    margin: 10px 0;
+  }
+  #container .signature_menu .menu_list{
+    padding: 10px 0 65px 0;
+  }
+  #container .signature_menu .menu_list ul{
+    align-items: stretch;
+  }
+  #container .signature_menu .menu_list ul li img {
+    padding: 20px;
+  }  
+  #container .signature_menu .menu_list ul li.swiper-slide-next img{
+    width: 70%;
+  }
+  #container .signature_menu .menu_list b{
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #E93804;
+  }
+  #container .signature_menu .menu_list i{
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #E93804;
+    line-height: 24px;
+  }
+  #container .signature_menu .menu_list p{
+    padding-top: 16px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #666;
+  }  
+}
+/*breakpoint 768*/
+@media screen and (max-width: 768px){
+  #container .main_visual .swiper-slide img{
+    height: 50vh;
+  }
+  #container .main_visual .txt_box>h2{  
+    font-size: 4.5rem;  
+  }
+  #container .main_visual .txt_box>span{
+    font-size: 1.0rem;
+    text-align: right;
+  }
+  #container .main_visual .txt_box>strong{
+    font-size: 2.4rem;
+    font-weight: 200;
+    line-height: 26px;  
+  }
+  #container .main_visual .txt_box>p{
+    margin-top: 8px;
+    font-size: 1.0rem;
+    line-height: 16px;
+  }
+  #container .main_visual > .arrow_box{
+    top: 80.5%;
+    right: 5%;
+    width: 108px;
+  }
+  #container .main_visual > .arrow_box .btn_prev img,
+  #container .main_visual > .arrow_box .btn_next img{
+    height: 40px;
+  }
+  #container .signature_menu .menu_list ul li img{
+    width: 70%;
+  }
+  #container .news_area .news_list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  #container .news_area .news_list img{
+    margin: 0 auto;
+    width: 444px;
+  }
+  #container .brand_concept{
+    padding: 90px 20px;
+    height: 100%;
+  }
+  #container .brand_concept h3{
+    margin-bottom: 20px;
+  }
+  #container .brand_concept p{
+    font-size: 2.4rem;
+    line-height: 40px;
+  }
+  #container .brand_concept a{
+    margin-top: 36px;
+    padding: 12px 24px;
+    font-size: 1.6rem;
+  }
+  #quick_area .talk img{
+    width: 80px;
+  }
+  #quick_area .talk span:hover::after{
+    width: 78px;
+    height: 78px;
+  }  
+}
+/*breakpoint 480*/
+@media screen and (max-width: 480px){
+  #header{
+    padding: 16px 0;
+  }
+  #header .header_inner h1 img{
+    padding-left: 16px;
+    width: 80%;
+  }
+  #header .header_inner .sns_area{
+    display: none;
+  }
+  #container .main_visual .swiper-slide img{
+    height: 90vh;
+  }
+  #container .main_visual .txt_box{
+    top: 38%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95%;
+    text-align: center;
+  }
+  #container .main_visual .txt_box>h2{
+    padding-bottom: 10px; 
+    font-size: 3.8rem;  
+  }
+  #container .main_visual .txt_box>span{
+    display: none;
+  }
+  #container .main_visual .txt_box>strong{
+    font-size: 2.8rem;
+    font-weight: 200;
+    line-height: 32px;    
+  }
+  #container .main_visual .txt_box>p{
+    margin-top: 8px;
+    font-size: 1.2rem;
+    line-height: 17px;
+  }
+  #container .signature_menu .right_area{
+    width: 100%;    
+  }
+  #container .signature_menu .right_area span{
+    position: relative;
+  }
+  #container .signature_menu .right_area img{
+    display: block;
+  }  
+  #container .signature_menu .right_area .onlyPC{
+    display: block;
+  }
+  #container .signature_menu .right_area .txt{
+    position: absolute;
+    top: 0;
+    left: 10%;
+    padding: 60px 0 0;
+    text-align: left;  
+  }
+  #container .signature_menu .right_area .txt>h3{
+    font-size: 3.4rem;
+    color: #fff;
+  }
+  #container .signature_menu .right_area .txt>p{
+    margin-top: 12px;
+    padding-left: 0;
+    font-size: 2.6rem;
+    line-height: 30px;
+    color: #fff;
+  }
+  #container .signature_menu .menu_list{
+    padding: 10px 0 40px;
+  }
+  #container .signature_menu .menu_list ul li img{
+    width: 100%;
+  }
+  #container .signature_menu .menu_list b{
+    font-size: 2.2rem;
+  }
+  #container .signature_menu .menu_list i{
+   font-size: 1.2rem;
+  }
+  #container .signature_menu .menu_list p{
+    padding-top: 12px;
+    font-size: 1.4rem;
+  }
+  #container .news_area{
+    padding: 100px 0;
+  }
+  #container .news_area h3{
+    font-size: 4.0rem;
+  }
+  #container .news_area p{
+    margin: 10px 0 40px;
+    font-size: 1.8rem;
+  }
+  #container .news_area .news_list{
+    padding: 0 40px;
+    row-gap: 20px;
+  }
+  #container .news_area .news_list img{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+  }
+  #container .brand_concept{
+    padding: 60px 40px;
+  }
+  #container .brand_concept h3{
+    margin-bottom: 20px;
+    font-size: 4.0rem;
+  }
+  #container .brand_concept p{
+    font-size: 2.0rem;
+    line-height: 30px;
+  }
+  #container .marquee_wrapper .marquee_track{
+    margin: 50px 0;
+    animation-duration: 12s; 
+  }
+  #container .marquee_wrapper .marquee_track img{
+    height: 40px;
+  }
+  #container .youtube_video video{
+    margin: 0 auto 80px;
+  }
+  #footer{
+    padding: 40px;
+  }
+  #footer .footer_inner{
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  #footer .footer_inner .sns_bottom{
+    margin: 0 auto 18px;
+  }
+  #footer .footer_inner .company_info{  
+    font-size: 1.4rem;
+  }
+  #footer .footer_inner .company_info p{
+    margin-top: 8px;
+    font-size: 1.2rem;
+  }
+}
+/*breakpoint 360*/
+@media screen and (max-width: 360px){
+  #container .signature_menu .right_area .txt{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 40px 20px 0;
+  }
+  #container .signature_menu .right_area .txt>h3{
+    font-size: 3.2rem;
+  }
+  #container .signature_menu .right_area .txt>p{
+    margin-top: 10px;
+    padding-left: 0;
+    font-size: 2.0rem;
+    line-height: 26px;
+    color: #fff;
+  }
+  #container .signature_menu .menu_list{
+    padding: 10px 0 30px;
+  }
+  #container .signature_menu .menu_list ul li img{
+    width: 100%;
+  }
+  #container .news_area{
+    padding: 80px 0;
+  }
+  #container .news_area .news_list{
+    padding: 0 24px;
+  }
+}
