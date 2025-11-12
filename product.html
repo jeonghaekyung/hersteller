@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--
+  <meta property="og:title" content="허스텔러, hersteller" />
+  <meta property="og:description" content="100% 비건 &amp; 크루얼티 프리(Vegan &amp; Cruelty-Free)를 지향하는 뷰티 브랜드">  
+  <meta property="og:image" content="https://jeonghaekyung.github.io/hersteller/images/common/img_og.jpg">
+  <meta property="og:url" content="https://jeonghaekyung.github.io/hersteller">
+  -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <!--font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/sub.css">
+  <!--swiper css-->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <title>허스텔러 Product</title>
+</head>
+
+<body>
+  <div id="wrap">
+    <div id="top"></div>
+    <!--헤더 영역-->
+    <header id="header">
+      <div class="header_inner">
+        <!--gnb-->
+        <nav id="gnb">
+          <ul>
+            <li>
+              <a href="brand.html">BRAND</a>
+            </li>
+            <li>
+              <a href="product.html">PRODUCT</a>
+              <!--서브메뉴 영역-->
+              <ul class="depth02">
+                <li><a href="product.html">토너/에센스</a></li>
+                <li><a href="product.html">세럼/앰플</a></li>
+                <li><a href="product.html">크림</a></li>
+                <li><a href="product.html">마스크</a></li>
+                <li><a href="product.html">클렌징</a></li>
+                <li><a href="product.html">선케어</a></li>
+                <li><a href="product.html">바디케어</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="event.html">EVENT</a>
+            </li>
+            <li>
+              <a href="notice.html">COMMUNITY</a>
+              <!--서브메뉴 영역-->
+              <ul class="depth02">
+                <li><a href="notice.html">NOTICE</a></li>
+                <li><a href="contact.html">CONTACT US</a>
+                </li>
+              </ul>
+            </li>
+          </ul>          
+        </nav>
+        <h1>
+          <a href="index.html">
+            <img src="images/common/header_logo.png" alt="허스텔러 로고">
+          </a>
+        </h1>        
+        <!--util 영역-->
+        <div class="util_area">
+          <ul>
+            <li>
+              <button id="search-open-btn" aria-label="검색 열기">
+                <img src="images/common/icon_search.png" alt="검색하기">
+              </button>
+            </li>
+            <li>
+              <a href="https://brand.naver.com/hersteller" target="_blank">
+                <img src="images/common/icon_naver.png" alt="네이버스토어로 이동">
+              </a>
+            </li>
+            <li>
+              <a href="https://herstellerbeauty.com/" target="_blank">
+              <img src="images/common/icon_global.png" alt="영문사이트로 이동">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="menuBg" class="menu_bg">
+      </div>
+    </header>
+    <!--검색창-->
+    <div id="full-search-container">
+      <div class="search-content">
+        <button id="search-close-btn" aria-label="검색창 닫기">
+          <img src="images/common/icon_close.png" alt="닫기">
+        </button>
+        <div class="search-form-wrap">
+          <input type="text" id="search-input" placeholder="검색어를 입력해 주세요.">
+          <button class="search-submit" aria-label="검색 실행">
+            <img src="images/common/icon_search.png" alt="검색">
+          </button>
+        </div>
+        <div class="search-trending">
+          <p class="title">인기 검색어</p>
+          <div class="hashtags">
+            <span>#피부진정템</span>
+            <span>#허스텔러토너</span>
+            <span>#리틀드롭스</span>
+            <span>#민감피부</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--컨테이너 영역-->
+    <main id="container">
+      <!--서브 비주얼 영역-->
+      <div class="sub_visual">
+        <span><img src="images/sub/product_visual.jpg" alt="허스텔러 리틀드롭스 에센스와 크림이 풀잎, 꽃과 함께 놓인 비건 제품 비주얼."></span>
+        <div class="txt_box product">
+          <h2>product</h2>
+          <strong>The Hersteller Collection</strong>
+          <p>“"자연의 진심을 담은 스킨케어 컬렉션"<br>
+          당신의 일상에 자연의 온기를 더하는 제품들을 확인해보세요.</p>
+        </div>
+      </div>
+      <!--제품유형 선택-->
+      <div class="product-type">
+        <div class="cate-wrap">
+          <div class="filter">
+            유형별<span><img src="images/sub/arrow_down.png" alt="드롭 화살표"></span>
+            <!--<span>피부고민별</span>
+            <span>라인별</span>-->
+          </div>
+          <ul class="cate-list">
+            <li><a href="#">전체제품</a></li>
+            <li><a href="#">토너/에센스</a></li>
+            <li><a href="#">세럼/앰플</a></li>
+            <li class="active"><a href="#">크림</a></li>
+            <li><a href="#">마스크</a></li>
+            <li><a href="#">클렌징</a></li>
+            <li><a href="#">선케어</a></li>
+            <li><a href="#">바디케어</a></li>
+          </ul>
+          <!--피부고민별list
+          <ul class="cate-list02">
+            <li><a href="#">진정/트러블</a></li>
+            <li><a href="#">주름/탄력</a></li>
+            <li><a href="#">미백/광채</a></li>            
+          </ul>-->
+          <!--라인별list
+          <ul class="cate-list03">
+            <li><a href="#">리틀드롭스</a></li>
+            <li><a href="#">원더베지</a></li>
+            <li><a href="#">니어바이</a></li>            
+          </ul>-->
+        </div>
+      </div>
+      <!--제품리스트-->
+      <div class="product">
+        <div class="list-header">
+          <div class="item-count">12 Items</div>
+          <div class="sort-dropdown">
+            <select name="sort">
+              <option value="latest">최신순</option>
+              <option value="popular">인기순</option>
+              <option value="price_low">가격 낮은순</option>
+              <option value="price_high">가격 높은순</option>
+            </select>
+          </div>
+        </div>
+        <ul class="product-list">
+          <li>
+            <a href="product_detail.html">
+              <div class="product-image">
+              <img src="images/sub/list_product01.png" alt="제품이름">
+              </div>
+              <div class="info">
+                <p class="name">원더 베지 하이드레이팅 젤 크림</p>
+                <p class="desc">쿨링 진정, 수분 충당</p>
+                <p class="price">26,000 원</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="product_detail.html">
+              <div class="product-image">
+              <img src="images/sub/list_product01.png" alt="제품이름">
+              </div>
+              <div class="info">
+                <p class="name">원더 베지 하이드레이팅 젤 크림</p>
+                <p class="desc">쿨링 진정, 수분 충당</p>
+                <p class="price">26,000 원</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="product_detail.html">
+              <div class="product-image">
+              <img src="images/sub/list_product01.png" alt="제품이름">
+              </div>
+              <div class="info">
+                <p class="name">원더 베지 하이드레이팅 젤 크림</p>
+                <p class="desc">쿨링 진정, 수분 충당</p>
+                <p class="price">26,000 원</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="product_detail.html">
+              <div class="product-image">
+              <img src="images/sub/list_product01.png" alt="제품이름">
+              </div>
+              <div class="info">
+                <p class="name">원더 베지 하이드레이팅 젤 크림</p>
+                <p class="desc">쿨링 진정, 수분 충당</p>
+                <p class="price">26,000 원</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="product_detail.html">
+              <div class="product-image">
+              <img src="images/sub/list_product01.png" alt="제품이름">
+              </div>
+              <div class="info">
+                <p class="name">원더 베지 하이드레이팅 젤 크림</p>
+                <p class="desc">쿨링 진정, 수분 충당</p>
+                <p class="price">26,000 원</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="product_detail.html">
+              <div class="product-image">
+              <img src="images/sub/list_product01.png" alt="제품이름">
+              </div>
+              <div class="info">
+                <p class="name">원더 베지 하이드레이팅 젤 크림</p>
+                <p class="desc">쿨링 진정, 수분 충당</p>
+                <p class="price">26,000 원</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="product_detail.html">
+              <div class="product-image">
+              <img src="images/sub/list_product01.png" alt="제품이름">
+              </div>
+              <div class="info">
+                <p class="name">원더 베지 하이드레이팅 젤 크림</p>
+                <p class="desc">쿨링 진정, 수분 충당</p>
+                <p class="price">26,000 원</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="product_detail.html">
+              <div class="product-image">
+              <img src="images/sub/list_product01.png" alt="제품이름">
+              </div>
+              <div class="info">
+                <p class="name">원더 베지 하이드레이팅 젤 크림</p>
+                <p class="desc">쿨링 진정, 수분 충당</p>
+                <p class="price">26,000 원</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="product_detail.html">
+              <div class="product-image">
+              <img src="images/sub/list_product01.png" alt="제품이름">
+              </div>
+              <div class="info">
+                <p class="name">원더 베지 하이드레이팅 젤 크림</p>
+                <p class="desc">쿨링 진정, 수분 충당</p>
+                <p class="price">26,000 원</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="product_detail.html">
+              <div class="product-image">
+              <img src="images/sub/list_product01.png" alt="제품이름">
+              </div>
+              <div class="info">
+                <p class="name">원더 베지 하이드레이팅 젤 크림</p>
+                <p class="desc">쿨링 진정, 수분 충당</p>
+                <p class="price">26,000 원</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="product_detail.html">
+              <div class="product-image">
+              <img src="images/sub/list_product01.png" alt="제품이름">
+              </div>
+              <div class="info">
+                <p class="name">원더 베지 하이드레이팅 젤 크림</p>
+                <p class="desc">쿨링 진정, 수분 충당</p>
+                <p class="price">26,000 원</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="product_detail.html">
+              <div class="product-image">
+              <img src="images/sub/list_product01.png" alt="제품이름">
+              </div>
+              <div class="info">
+                <p class="name">원더 베지 하이드레이팅 젤 크림</p>
+                <p class="desc">쿨링 진정, 수분 충당</p>
+                <p class="price">26,000 원</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <!--페이지네이션-->
+        <div class="pagination">
+          <ul class="list">
+            <li><a href="#"><img src="images/sub/btn_page_first.png" alt=""></a></li>
+            <li><a href="#"><img src="images/sub/btn_page_prev.png" alt=""></a></li>            
+            <li><a href="#" class="page active">1</a></li>
+            <li><a href="#">2</a></li>            
+            <li><a href="#"><img src="images/sub/btn_page_next.png" alt=""></a></li>
+            <li><a href="#"><img src="images/sub/btn_page_last.png" alt=""></a></li>
+          </ul>
+        </div>
+      </div>    
+    </main>    
+    <!--퀵영역-->
+    <div id="quick_area">
+      <div class="btn_top">
+        <a href="#top"><span><img src="images/common/btn_top.png" alt="상단으로 이동"></span></a>
+      </div>
+      <div class="talk">
+        <a href="#" target="_blank"><span><img src="images/common/btn_talk.png" alt="카카오톡 상담으로 이동"></span></a>
+      </div>      
+    </div>
+    <!--푸터영역-->
+    <footer id="footer">
+      <div class="footer_inner">
+        <ul>
+          <li>
+            <div class="footer_logo">
+              <img src="images/common/footer_logo.png" alt="허스텔러 로고">
+            </div>
+          </li>
+          <li>
+            <div class="company_info">
+              주식회사 앙티브<br>
+              대표 : 김빛나<br>
+              등록번호 : 847-87-03009<br>
+              주소 : 서울특별시 강남구 테헤란로 501
+            </div>
+          </li>
+          <li>
+            <div class="cs">
+              <h4>고객센터</h4>
+              <strong>1833-2087</strong>
+              <p>
+                상담시간 : 월-금 오전 10시 &#126; 오후 5시<br>
+                점심시간 : 오후 1시 &#126; 오후 2시<br>
+                &#40;토요일,일요일,공휴일 휴무&#41;
+              </p>
+            </div>
+          </li>
+          <li>
+            <nav class="fnb">
+              <a href="#">공지사항</a>
+              <a href="#">Contact Us</a>
+              <a href="#">개인정보처리방침</a>
+            </nav>
+            <div class="partnership">
+              <h4>사업문의</h4>
+              <p>herstellerbeauty@gmail.com</p>
+            </div>
+          </li>
+          <li>
+            <div class="sns_area">
+              <ul>
+                <li><a href="#" target="_blank"><img src="images/common/icon_instagram.png" alt="인스타그램 사이트로 이동"></a></li>
+                <li><a href="#" target="_blank"><img src="images/common/icon_youtube.png" alt="유투브 사이트로 이동"></a></li>
+                <li><a href="#" target="_blank"><img src="images/common/icon_facebook.png" alt="페이스북 사이트로 이동"></a></li>
+                <li><a href="#" target="_blank"><img src="images/common/icon_tiktok.png" alt="틱톡 사이트로 이동"></a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        <p class="copy">Copyright © 2025 herstellerbeauty. All rights reserved.</p>
+      </div>      
+    </footer>
+  </div>
+  <!-- Swiper JS -->
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/sub.js"></script>
+
+</body>
+
+</html>

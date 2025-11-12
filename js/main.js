@@ -1,6 +1,3 @@
-//aos 효과
-AOS.init();
-
 //메인배너 슬라이드
 var mainVisul = new Swiper(".main_visual", {
   pagination: {
@@ -56,3 +53,4 @@ var swiper = new Swiper('.instagram_list', {
   spaceBetween: 0,
 
 });
+

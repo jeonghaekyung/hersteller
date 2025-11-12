@@ -1,186 +1,113 @@
 @charset "utf-8";
 
-/*Mont*/
-@font-face {
-    font-family: 'Mont';
-    src: url('../font/Mont-ExtraLightDEMO.woff2') format('woff2'),
-        url('../font/Mont-ExtraLightDEMO.woff') format('woff');
-    font-weight: 200;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Mont';
-    src: url('../font/Mont-HeavyDEMO.woff2') format('woff2'),
-        url('../font/Mont-HeavyDEMO.woff') format('woff');
-    font-weight: 800;
-    font-style: normal;
-    font-display: swap;
-}
-/*S-CoreDream*/
-@font-face {
-  font-family: 'S-Core Dream';
-  src: url('../font/S-CoreDream-1Thin.woff2') format('woff2'),
-       url('../font/S-CoreDream-1Thin.woff') format('woff');
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'S-Core Dream';
-  src: url('../font/S-CoreDream-2ExtraLight.woff2') format('woff2'),
-       url('../font/S-CoreDream-2ExtraLight.woff') format('woff');
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'S-Core Dream';
-  src: url('../font/S-CoreDream-3Light.woff2') format('woff2'),
-       url('../font/S-CoreDream-3Light.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'S-Core Dream';
-  src: url('../font/S-CoreDream-4Regular.woff2') format('woff2'),
-       url('../font/S-CoreDream-4Regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'S-Core Dream';
-  src: url('../font/S-CoreDream-5Medium.woff2') format('woff2'),
-       url('../font/S-CoreDream-5Medium.woff') format('woff');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'S-Core Dream';
-  src: url('../font/S-CoreDream-6Bold.woff2') format('woff2'),
-       url('../font/S-CoreDream-6Bold.woff') format('woff');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'S-Core Dream';
-  src: url('../font/S-CoreDream-7ExtraBold.woff2') format('woff2'),
-       url('../font/S-CoreDream-7ExtraBold.woff') format('woff');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'S-Core Dream 8';
-  src: url('../font/S-CoreDream-8Heavy.woff2') format('woff2'),
-       url('../font/S-CoreDream-8Heavy.woff') format('woff');
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'S-Core Dream';
-  src: url('../font/S-CoreDream-9Black.woff2') format('woff2'),
-       url('../font/S-CoreDream-9Black.woff') format('woff');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-
 /*메인 비주얼 영역*/
-#container .main_visual{
+#container .main_visual {
   position: relative;
 }
-#container .main_visual .swiper-slide img{
+
+#container .main_visual .swiper-slide img {
   display: block;
   width: 100%;
   object-fit: cover;
 }
-#container .main_visual .txt_box{
+
+#container .main_visual .txt_box {
   position: absolute;
   top: 378px;
   left: 240px;
 }
-#container .main_visual .txt_box>h2{  
+
+#container .main_visual .txt_box>h2 {
   font-size: 5.0rem;
-  font-weight: 500;  
+  font-weight: 500;
   line-height: 60px;
 }
-#container .main_visual .txt_box>p{
+
+#container .main_visual .txt_box>p {
   margin-top: 24px;
   font-size: 3.0rem;
   line-height: 30px;
 }
-#container .main_visual .txt_box>i{
+
+#container .main_visual .txt_box>i {
   font-size: 2.4rem;
   line-height: 54px;
   color: #666;
 }
-#container .main_visual .txt_box>span{
+
+#container .main_visual .txt_box>span {
   padding-bottom: 24px;
   font-size: 2.4rem;
   line-height: 50px;
 }
-#container .main_visual .txt_box>a{
+
+#container .main_visual .txt_box>a {
   display: block;
   margin-top: 34px;
   padding: 10px 0;
   width: 140px;
   border: 1px solid #666;
-  font-size:1.6rem;
+  font-size: 1.6rem;
   text-align: center;
 }
-#container .main_visual .txt_box>.btn_e04{
+
+#container .main_visual .txt_box>.btn_e04 {
   display: block;
   margin-top: 254px;
   padding: 10px 0;
   width: 140px;
   border: 1px solid #666;
-  font-size:1.6rem;
+  font-size: 1.6rem;
   text-align: center;
 }
-#container .main_visual .txt_box>a:hover{
+
+#container .main_visual .txt_box>a:hover {
   background-color: #333;
   color: #fff;
   transition: all 0.5s linear;
 }
+
 #container .swiper-button-prev .btn_prev img,
-#container .swiper-button-next .btn_next img{
+#container .swiper-button-next .btn_next img {
   line-height: 0;
 }
-#container .swiper-button-next:after,.swiper-button-prev:after{
+
+#container .swiper-button-next:after,
+.swiper-button-prev:after {
   display: none;
 }
+
 /*브랜드스토리*/
-#container .brand_story{
+#container .brand_story {
   display: flex;
   width: 100%;
   height: 810px;
-  transition: background 0.6s ease;
+  transition: background-image 0.6s ease;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: #fff;
 }
-#container .brand_story.bg1{
+
+#container .brand_story.bg1 {
   background-image: url(../images/main/brand_bg01.jpg);
 }
-#container .brand_story.bg2{
+
+#container .brand_story.bg2 {
   background-image: url(../images/main/brand_bg02.jpg);
 }
-#container .brand_story.bg3{
+
+#container .brand_story.bg3 {
   background-image: url(../images/main/brand_bg03.jpg);
 }
+
 /* 아코디언 구조 */
-#container .brand_story .accordion_list{
+#container .brand_story .accordion_list {
   display: flex;
   width: 100%;
 }
-#container .brand_story .accordion_item{
+
+#container .brand_story .accordion_item {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -193,15 +120,18 @@
   text-align: center;
   cursor: pointer;
 }
-#container .brand_story .accordion_item:first-child{
-  border: none;  
+
+#container .brand_story .accordion_item:first-child {
+  border: none;
 }
-#container .brand_story .accordion_title{
+
+#container .brand_story .accordion_title {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#container .brand_story .accordion_item .accordion_title h2{
+
+#container .brand_story .accordion_item .accordion_title h2 {
   padding: 0 46px;
   width: 100%;
   transition: transform 0.6s ease, opacity 0.6s ease, color 0.6s linear;
@@ -216,69 +146,85 @@
   writing-mode: sideways-lr;
   text-orientation: upright;
 }
-#container .brand_story .accordion_item .accordion_title:hover h2{
+
+#container .brand_story .accordion_item .accordion_title:hover h2 {
   color: #fff;
   cursor: pointer;
 }
+
 /* 내용 */
-#container .brand_story .accordion_item .accordion_cont{
+#container .brand_story .accordion_item .accordion_cont {
   display: none;
   max-height: 0;
   transition: all 0.1s ease;
   transform: translateX(-40px);
 }
+
 /* 활성화 상태 */
-#container .brand_story .accordion_item.active{
-  flex-grow:1; /*남는 가로영역을 채우기 위해 늘어난다는 의미*/
+#container .brand_story .accordion_item.active {
+  flex-grow: 1;
+  /*남는 가로영역을 채우기 위해 늘어난다는 의미*/
   background: rgba(0, 0, 0, 0.3);
 }
-#container .brand_story .accordion_item.active .accordion_cont{
+
+#container .brand_story .accordion_item.active .accordion_cont {
   display: block;
   max-height: 810px;
   text-align: left;
   opacity: 1;
   transform: translateX(0);
 }
-#container .brand_story .accordion_item.active .accordion_title{
+
+#container .brand_story .accordion_item.active .accordion_title {
   display: none;
 }
-#container .brand_story .accordion_item .info_wrap{
+
+#container .brand_story .accordion_item .info_wrap {
   padding: 110px 180px;
   width: 83vw;
 }
-#container .brand_story .accordion_item .info_wrap h3{
+
+#container .brand_story .accordion_item .info_wrap h3 {
   display: inline-block;
   font-size: 5.2rem;
   font-weight: 600;
 }
-#container .brand_story .accordion_item .info_wrap b{
+
+#container .brand_story .accordion_item .info_wrap b {
   padding-left: 22px;
   font-size: 4.0rem;
   font-weight: 300;
 }
-#container .brand_story .accordion_item .info_wrap ul{
+
+#container .brand_story .accordion_item .info_wrap ul {
   margin-top: 46px;
   padding: 64px;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0, 0, 0, 0.3);
 }
-#container .brand_story .accordion_item .info_wrap ul li{
-  font-size: 3.2rem;
+
+#container .brand_story .accordion_item .info_wrap ul li {
+  font-size: 3rem;
+  font-weight: 300;
   line-height: 78px;
 }
-#container .brand_story .accordion_item .info_wrap ul li img{
+
+#container .brand_story .accordion_item .info_wrap ul li img {
   line-height: 0;
 }
-#container .brand_story .accordion_item .info_wrap p{
+
+#container .brand_story .accordion_item .info_wrap p {
   padding-top: 42px;
   font-size: 2.2rem;
   font-weight: 300;
 }
+
 /*제품유형바로가기*/
-#container .product_type{
+#container .product_type {
   margin: 115px auto;
   width: 1440px;
 }
-#container .product_type .type_list ul{
+
+#container .product_type .type_list ul {
   display: flex;
   justify-content: space-between;
   font-size: 1.4rem;
@@ -286,140 +232,169 @@
   text-align: center;
   color: #333;
 }
-#container .product_type .type_list ul li img{
+
+#container .product_type .type_list ul li img {
   display: block;
   margin-bottom: 12px;
   height: 100%;
   border: 1px solid #F5F5F5;
   border-radius: 100%;
+  transition: border-color 0.5s linear;
 }
-#container .product_type .type_list ul li:hover img{
-  border: 1px solid #7A9783;
+
+#container .product_type .type_list ul li:hover img {
+  border-color: #7A9783;
   transition: 0.5s linear;
 }
-#container .product_type .type_list ul li a{
+
+#container .product_type .type_list ul li a {
   display: block;
+  transition: color 0.5s linear;
 }
-#container .product_type .type_list ul li:hover a{
+
+#container .product_type .type_list ul li:hover a {
   color: #7A9783;
-  transition: 0.5s linear; 
 }
+
 /*베스트아이템*/
-#container .best_item{
+#container .best_item {
   position: relative;
   width: 100%;
 }
-#container .best_item .best_list{
+
+#container .best_item .best_list {
   margin: 0 auto;
   width: 1440px;
 }
-#container .best_item h3{
+
+#container .best_item h3 {
   padding: 20px 0 60px;
   font-family: 'MONT';
   font-size: 4.8rem;
   font-weight: 800;
   text-align: center;
 }
-#container .best_item .best_list ul{
+
+#container .best_item .best_list ul {
   display: flex;
   justify-content: space-between;
 }
-#container .best_item .best_list ul li{
+
+#container .best_item .best_list ul li {
   text-align: center;
   word-break: keep-all;
 }
-#container .best_item .best_list ul li img{
+
+#container .best_item .best_list ul li img {
   display: block;
   height: 450px;
   background-color: #F9F9F9;
+  transition: background-color 0.3s linear;
 }
-#container .best_item .best_list ul li:hover img{
+
+#container .best_item .best_list ul li:hover img {
   background-color: #e3ece8;
-  transition: 0.3s linear;
 }
-#container .best_item .best_list ul li a{
+
+#container .best_item .best_list ul li a {
   display: block;
   padding-bottom: 40px;
 }
-#container .best_item .best_list ul li strong{  
+
+#container .best_item .best_list ul li strong {
   font-size: 2.0rem;
   font-weight: 500;
   color: #464646;
 }
-#container .best_item .best_list ul li p{  
+
+#container .best_item .best_list ul li p {
   font-size: 1.5rem;
   color: #A6A6A6;
   line-height: 26px;
 }
-#container .best_item .best_list ul li em{
+
+#container .best_item .best_list ul li em {
   display: inline-block;
   padding-top: 6px;
   font-size: 1.6rem;
   font-weight: 600;
   color: #464646;
 }
-#container .best_item .arrow_box01>.btn_prev{
+
+#container .best_item .arrow_box01>.btn_prev {
   top: 60%;
   padding-left: 27px;
 }
-#container .best_item .arrow_box01>.btn_next{
+
+#container .best_item .arrow_box01>.btn_next {
   top: 60%;
   padding-right: 27px;
 }
+
 /*인스타그램*/
-#container .instagram{
-  padding: 150px 0 100px;
+#container .instagram {
+  padding: 150px 0;
   width: 100%;
 }
-#container .instagram span{
+
+#container .instagram span {
   display: block;
   font-size: 2.8rem;
   text-align: center;
   color: #666;
   line-height: 22px;
 }
-#container .instagram h3{
+
+#container .instagram h3 {
   padding-bottom: 50px;
   font-family: 'MONT';
   font-size: 4.8rem;
   font-weight: 800;
-  text-align: center;  
+  text-align: center;
 }
-#container .instagram .instagram_list{
+
+#container .instagram .instagram_list {
   position: relative;
   height: 700px;
 }
-#container .instagram .instagram_list ul li{  
+
+#container .instagram .instagram_list ul li {
   display: flex;
   align-items: stretch;
   width: 1053px;
   height: 100%;
   object-fit: cover;
 }
+
 #container .instagram .instagram_list .insta_large {
   flex: 1 1 100%;
 }
+
 #container .instagram .instagram_list .insta_small {
   flex: 1 1 349px;
   display: flex;
   flex-direction: column;
 }
-#container .instagram .instagram_list .insta_small > div {
+
+#container .instagram .instagram_list .insta_small>div {
   flex: 1 1 349px;
   margin: 0 2px 2px;
 }
-#container .instagram .instagram_list ul li img{
+
+#container .instagram .instagram_list ul li img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
 #container .instagram .instagram_list ul li a {
   position: relative;
   display: block;
   overflow: hidden;
 }
-#container .instagram .instagram_list ul li a::after{
+
+#container .instagram .instagram_list ul li a::after {
   content: "";
   display: block;
   position: absolute;
@@ -432,10 +407,12 @@
   opacity: 0;
   z-index: 1;
 }
-#container .instagram .instagram_list ul li a:hover::after{    
+
+#container .instagram .instagram_list ul li a:hover::after {
   opacity: 1;
 }
-#container .instagram .instagram_list ul li .insta_small img{
+
+#container .instagram .instagram_list ul li .insta_small img {
   width: 349px;
   height: 349px;
 }

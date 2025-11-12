@@ -25,6 +25,7 @@
 
 <body>
   <div id="wrap">
+    <div id="top"></div>
     <!--헤더 영역-->
     <header id="header">
       <div class="header_inner">
@@ -32,35 +33,35 @@
         <nav id="gnb">
           <ul>
             <li>
-              <a href="#">BRAND</a>
+              <a href="brand.html">BRAND</a>
             </li>
             <li>
-              <a href="#">PRODUCT</a>
+              <a href="product.html">PRODUCT</a>
               <!--서브메뉴 영역-->
               <ul class="depth02">
-                <li><a href="#">토너/에센스</a></li>
-                <li><a href="#">세럼/앰플</a></li>
-                <li><a href="#">크림</a></li>
-                <li><a href="#">마스크</a></li>
-                <li><a href="#">클렌징</a></li>
-                <li><a href="#">선케어</a></li>
-                <li><a href="#">바디케어</a></li>
+                <li><a href="product.html">토너/에센스</a></li>
+                <li><a href="product.html">세럼/앰플</a></li>
+                <li><a href="product.html">크림</a></li>
+                <li><a href="product.html">마스크</a></li>
+                <li><a href="product.html">클렌징</a></li>
+                <li><a href="product.html">선케어</a></li>
+                <li><a href="product.html">바디케어</a></li>
               </ul>
             </li>
             <li>
-              <a href="#">EVENT</a>
+              <a href="event.html">EVENT</a>
             </li>
             <li>
-              <a href="#">COMMUNITY</a>
+              <a href="notice.html">COMMUNITY</a>
               <!--서브메뉴 영역-->
               <ul class="depth02">
-                <li><a href="#">NOTICE</a></li>
-                <li><a href="#">CONTACT US</a>
+                <li><a href="notice.html">NOTICE</a></li>
+                <li><a href="contact.html">CONTACT US</a>
                 </li>
               </ul>
             </li>
           </ul>          
-         </nav>
+        </nav>
         <h1>
           <a href="index.html">
             <img src="images/common/header_logo.png" alt="허스텔러 로고">
@@ -70,17 +71,17 @@
         <div class="util_area">
           <ul>
             <li>
-              <button type="button">
+              <button id="search-open-btn" aria-label="검색 열기">
                 <img src="images/common/icon_search.png" alt="검색하기">
               </button>
             </li>
             <li>
-              <a href="#" target="_blank">
+              <a href="https://brand.naver.com/hersteller" target="_blank">
                 <img src="images/common/icon_naver.png" alt="네이버스토어로 이동">
               </a>
             </li>
             <li>
-              <a href="#" target="_blank">
+              <a href="https://herstellerbeauty.com/" target="_blank">
               <img src="images/common/icon_global.png" alt="영문사이트로 이동">
               </a>
             </li>
@@ -90,6 +91,29 @@
       <div id="menuBg" class="menu_bg">
       </div>
     </header>
+    <!--검색창-->
+    <div id="full-search-container">
+      <div class="search-content">
+        <button id="search-close-btn" aria-label="검색창 닫기">
+          <img src="images/common/icon_close.png" alt="닫기">
+        </button>
+        <div class="search-form-wrap">
+          <input type="text" id="search-input" placeholder="검색어를 입력해 주세요.">
+          <button class="search-submit" aria-label="검색 실행">
+            <img src="images/common/icon_search.png" alt="검색">
+          </button>
+        </div>
+        <div class="search-trending">
+          <p class="title">인기 검색어</p>
+          <div class="hashtags">
+            <span>#피부진정템</span>
+            <span>#허스텔러토너</span>
+            <span>#리틀드롭스</span>
+            <span>#민감피부</span>
+          </div>
+        </div>
+      </div>
+    </div>
     <!--컨테이너 영역-->
     <main id="container">
       <!--메인 비주얼 영역-->
@@ -172,7 +196,7 @@
                 <b>Natural Ingredients &amp; Effective</b>
                 <ul>
                   <li><img src="images/main/icon_check.png" alt=""> 식물성 원료 기반의 클린한 포뮬러로 피부 자극을 최소화하고,</li>
-                  <li><img src="images/main/icon_check.png" alt=""> 오랜 비건 화장품 개발 노하우를 통해 효과를 입증한 성분만을 사용합니다.</li>
+                  <li><img src="images/main/icon_check.png" alt=""> 비건 화장품 개발 노하우를 통해 효과를 입증한 성분만을 사용합니다.</li>
                   <li><img src="images/main/icon_check.png" alt=""> 제품은 피부 고민별로 세분화되어 있어, 맞춤형 솔루션을 제공합니다.</li>
                 </ul>
                 <p>허스토리의 제품은 단순한 '좋은 성분'이 아닌,<br>
@@ -202,79 +226,79 @@
         </div>
       </section>
       <!--제품유형바로가기-->
-      <section class="product_type">
+      <div class="product_type">
         <div class="type_list">
           <ul>
             <li>
-              <a href="#"><img src="images/main/cate_all.png" alt="전제품보기">전제품</a>
+              <a href="product.html"><img src="images/main/cate_all.png" alt="전제품보기">전제품</a>
             </li>
             <li>
-              <a href="#"><img src="images/main/cate01.png" alt="토너/에센스 제품보기">토너/에센스</a>
+              <a href="product.html"><img src="images/main/cate01.png" alt="토너/에센스 제품보기">토너/에센스</a>
             </li>
             <li>
-              <a href="#"><img src="images/main/cate02.png" alt="세럼/앰플 제품보기">세럼/앰플</a>
+              <a href="product.html"><img src="images/main/cate02.png" alt="세럼/앰플 제품보기">세럼/앰플</a>
             </li>
             <li>
-              <a href="#"><img src="images/main/cate03.png" alt="크림 제품보기">크림</a>
+              <a href="product_detail.html"><img src="images/main/cate03.png" alt="크림 제품보기">크림</a>
             </li>
             <li>
-              <a href="#"><img src="images/main/cate04.png" alt="마스크 제품보기">마스크</a>
+              <a href="product.html"><img src="images/main/cate04.png" alt="마스크 제품보기">마스크</a>
             </li>
             <li>
-              <a href="#"><img src="images/main/cate05.png" alt="클렌징 제품보기">클렌징</a>
+              <a href="product.html"><img src="images/main/cate05.png" alt="클렌징 제품보기">클렌징</a>
             </li>
             <li>
-              <a href="#"><img src="images/main/cate06.png" alt="선케어 제품보기">선케어</a>
+              <a href="product.html"><img src="images/main/cate06.png" alt="선케어 제품보기">선케어</a>
             </li>
             <li>
-              <a href="#"><img src="images/main/cate07.png" alt="바디케어 제품보기">바디케어</a>
+              <a href="product.html"><img src="images/main/cate07.png" alt="바디케어 제품보기">바디케어</a>
             </li>
           </ul>
         </div>
-      </section>
+      </div>
       <!--베스트아이템-->
       <section class="best_item">
         <h3>BEST ITEM</h3>
         <div class="swiper best_list">
           <ul class="swiper-wrapper">
             <li class="swiper-slide">
-              <a href="#"><img src="images/main/best_p01.png" alt=""></a>
+              <a href="product_detail.html"><img src="images/main/best_p01.png" alt=""></a>
               <strong>원더 베지 쥬시 트리트먼트 에센스</strong>
               <p>속 건조 종결템</p>
               <em>38,000 원</em>
             </li>
             <li class="swiper-slide">
-              <a href="#"><img src="images/main/best_p02.png" alt=""></a>
+              <a href="product_detail.html"><img src="images/main/best_p02.png" alt=""></a>
               <strong>원더 베지 하이드레이팅 젤 크림</strong>
               <p>쿨링 진정, 수분 홀딩</p>
               <em>26,000 원</em>
             </li>
             <li class="swiper-slide">
-              <a href="#"><img src="images/main/best_p03.png" alt=""></a>
+              <a href="product_detail.html"><img src="images/main/best_p03.png" alt=""></a>
               <strong>니어바이 센티드 밤</strong>
               <p>비건 고체 향수, 보습 윤기 멀티밤</p>
               <em>24,000 원</em>
             </li>
             <li class="swiper-slide">
-              <a href="#"><img src="images/main/best_p04.png" alt=""></a>
+              <a href="product_detail.html"><img src="images/main/best_p04.png" alt=""></a>
               <strong>리틀 드롭스 리벌스 데이 앰플</strong>
               <p>푸석해진 피부를 위한 결탄력 앰플</p>
               <em>48,000 원</em>
             </li>
             <li class="swiper-slide">
-              <a href="#"><img src="images/main/best_p05.png" alt=""></a>
+              <a href="product_detail.html"><img src="images/main/best_p05.png" alt=""></a>
               <strong>니어바이 리차징 립밤 3.8g</strong>
               <p>비건 보습 생기 립밤</p>
               <em>14,000 원</em>
             </li>
             <li class="swiper-slide">
-              <a href="#"><img src="images/main/best_p06.png" alt=""></a>
+              <a href="product_detail.html"><img src="images/main/best_p06.png" alt=""></a>
               <strong>리틀 드롭스 카밍 데이즈 앰플</strong>
               <p>민감 피부를 위한 급속 진정 앰플</p>
               <em>42,000 원</em>
             </li>
             <li class="swiper-slide">
-              <a href="#"><img src="images/main/best_p07.png" alt=""></a>
+              <a href="product_detail.html"><img src="images/main/best_p07.png" alt=""></a>
               <strong>니어바이 퍼퓸 바디 로션</strong>
               <p>센티드 비건 바디케어</p>
               <em>28,000 원</em>
@@ -350,7 +374,7 @@
     <!--퀵영역-->
     <div id="quick_area">
       <div class="btn_top">
-        <a href="#"><span><img src="images/common/btn_top.png" alt="상단으로 이동"></span></a>
+        <a href="#top"><span><img src="images/common/btn_top.png" alt="상단으로 이동"></span></a>
       </div>
       <div class="talk">
         <a href="#" target="_blank"><span><img src="images/common/btn_talk.png" alt="카카오톡 상담으로 이동"></span></a>
@@ -379,7 +403,7 @@
               <strong>1833-2087</strong>
               <p>
                 상담시간 : 월-금 오전 10시 &#126; 오후 5시<br>
-                점심시간 : 13:00 &ndash; 14:00<br>
+                점심시간 : 오후 1시 &#126; 오후 2시<br>
                 &#40;토요일,일요일,공휴일 휴무&#41;
               </p>
             </div>
