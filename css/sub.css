@@ -496,8 +496,14 @@
 }
 
 #container .detail-tabs #detail-content {
-  margin-bottom: 120px;
+  margin: 0 auto 160px;
+  max-width: 1200px;
   text-align: center;
+}
+#container .detail-tabs #detail-content img{
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .tab-content {
