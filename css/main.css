@@ -18,14 +18,14 @@
 }
 
 #container .main_visual .txt_box>h2 {
-  font-size: 5.0rem;
+  font-size: 5rem;
   font-weight: 500;
   line-height: 60px;
 }
 
 #container .main_visual .txt_box>p {
   margin-top: 24px;
-  font-size: 3.0rem;
+  font-size: 3rem;
   line-height: 30px;
 }
 
@@ -67,8 +67,8 @@
   transition: all 0.5s linear;
 }
 
-#container .swiper-button-prev .btn_prev img,
-#container .swiper-button-next .btn_next img {
+#container .swiper-button-prev.btn_prev img,
+#container .swiper-button-next.btn_next img {
   line-height: 0;
 }
 
@@ -192,7 +192,7 @@
 
 #container .brand_story .accordion_item .info_wrap b {
   padding-left: 22px;
-  font-size: 4.0rem;
+  font-size: 4rem;
   font-weight: 300;
 }
 
@@ -302,7 +302,7 @@
 }
 
 #container .best_item .best_list ul li strong {
-  font-size: 2.0rem;
+  font-size: 2rem;
   font-weight: 500;
   color: #464646;
 }
@@ -354,8 +354,7 @@
 }
 
 #container .instagram .instagram_list {
-  position: relative;
-  height: 700px;
+  position: relative;  
 }
 
 #container .instagram .instagram_list ul li {
@@ -367,7 +366,7 @@
 }
 
 #container .instagram .instagram_list .insta_large {
-  flex: 1 1 100%;
+  flex: 1 1 700px;
 }
 
 #container .instagram .instagram_list .insta_small {
