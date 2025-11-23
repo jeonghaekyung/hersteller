@@ -7,9 +7,6 @@ body {
 
 @media (hover: hover) {
   #header .header_inner #gnb>ul>li:hover>a {
-    display: block;
-    font-size: 1.8rem;
-    font-weight: 600;
     color: #193D35;
   }
 }
@@ -439,10 +436,10 @@ body {
   }
 
   #container .main_visual .txt_box>span {
-  padding-bottom: 24px;
-  font-size: 2.4rem;
-  line-height: 50px;
-}
+    padding-bottom: 24px;
+    font-size: 2.4rem;
+    line-height: 50px;
+  }
 
   #container .main_visual .txt_box>h2 {
     font-size: 3.6rem;
@@ -458,7 +455,7 @@ body {
     font-size: 1.6rem;
     line-height: 30px;
   }
-  
+
   #container .main_visual .txt_box>a {
     margin-top: 16px;
     padding: 8px 0;
