@@ -513,6 +513,12 @@ body{
   cursor: pointer;
 }
 
+/*모바일용 헤더*/
+#header .header_inner .btn_hamburger,
+#header .header_inner .mo_menu_container{
+  display: none;
+}
+
 /*퀵영역*/
 #quick_area{
   position: fixed;
