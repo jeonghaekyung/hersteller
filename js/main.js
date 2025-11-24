@@ -29,18 +29,18 @@ var mainVisul = new Swiper(".main_visual", {
   },
   effect: "fade",
 
-  breakpoints: { // <--- breakpoints 시작
-    0: { // <--- 0 시작
-      navigation: false // <--- 쉼표는 선택 사항
-    }, // <--- 0 종료
+  breakpoints: {
+    0: {
+      navigation: false
+    }, 
 
-    480: { // <--- 480 시작
+    480: { 
       navigation: {
         nextEl: ".btn_next",
         prevEl: ".btn_prev",
       }
-    } // <--- 480 종료
-  } // <--- breakpoints 종료
+    } 
+  } 
 });
 
 //브랜드스토리
@@ -94,8 +94,9 @@ var swiper = new Swiper('.instagram_list', {
   direction: 'horizontal',
   loop: false,
   slidesPerView: 'auto',
-  slidesPerGroup: 2,
+  slidesPerGroup: 1,
   spaceBetween: 0,
 
 });
+
 
