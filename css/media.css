@@ -1256,4 +1256,30 @@ body {
     padding: 40px 16px;
   }
 
+   #container .instagram .instagram_list ul li {
+    width: 396px;
+  }
+
+  #container .instagram .instagram_list .insta_large {
+    flex: 1 1 262px;
+  }
+
+  #container .instagram .instagram_list .insta_small {
+    flex: 1 1 130px;
+  }
+
+  #container .instagram .instagram_list .insta_small>div {
+    flex: 1 1 130px;
+  }
+
+  #container .instagram .instagram_list ul li .insta_large img {
+    width: 262px;
+    height: 262px;
+  }
+
+  #container .instagram .instagram_list ul li .insta_small img {
+    width: 130px;
+    height: 130px;
+  }
+
 }
