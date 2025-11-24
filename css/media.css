@@ -1257,6 +1257,10 @@ body {
     height: 210px;
   }
 
+  #container .best_item .best_list ul li p{
+    line-height: 22px;
+  }
+
   /*인스타그램*/
   #container .instagram {
     padding: 40px 16px;
