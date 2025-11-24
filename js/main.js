@@ -1,8 +1,23 @@
+/*모바일용 헤더*/
+$(function () {
+  $(".btn_hamburger").click(function () {
+    $(".mo_menu_container").toggleClass("open");
+    $(this).toggleClass("open");
+  });
+  $(".btn_hamburger.open").click(function () {
+    $(".mo_menu_container").removeClass("open");
+    $(".btn_hamburger").removeClass("open");
+  });
+  $(".mo_gnb ul > li").click(function () {
+    $(this).find(".depth02").stop().slideToggle();
+  });
+});
+
 //메인배너 슬라이드
 var mainVisul = new Swiper(".main_visual", {
   pagination: {
     el: ".swiper-pagination",
-    clickable: true, //버튼 클릭 여부
+    clickable: true,
   },
   autoplay: {
     delay: 5500,
@@ -13,6 +28,19 @@ var mainVisul = new Swiper(".main_visual", {
     prevEl: ".btn_prev",
   },
   effect: "fade",
+
+  breakpoints: { // <--- breakpoints 시작
+    0: { // <--- 0 시작
+      navigation: false // <--- 쉼표는 선택 사항
+    }, // <--- 0 종료
+
+    480: { // <--- 480 시작
+      navigation: {
+        nextEl: ".btn_next",
+        prevEl: ".btn_prev",
+      }
+    } // <--- 480 종료
+  } // <--- breakpoints 종료
 });
 
 //브랜드스토리
@@ -42,6 +70,23 @@ var swiper = new Swiper('.best_list', {
     prevEl: '.btn_prev01',
     clickable: true,
   },
+
+  breakpoints: {
+    0: {
+      slidesPerView: 2,
+      spaceBetween: 10,
+    },
+
+    481: {
+      slidesPerView: 3,
+      spaceBetween: 16,
+    },
+
+    769: {
+      slidesPerView: 4,
+      spaceBetween: 26,
+    }
+  }
 });
 
 //인스타그램 슬라이드

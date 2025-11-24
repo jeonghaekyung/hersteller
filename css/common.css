@@ -218,15 +218,12 @@ body{
   height: 50%;
   /* 이미지처럼 밝은 배경 + 약간의 투명도 */
   background-color: rgba(255, 255, 255, 0.98);
-  /* Header (z-index: 100) 보다 높게 설정하여 위에 표시 */
   z-index: 200;
 
-  /* ✨ 초기에는 완전히 숨김 */
+  /* 초기에는 완전히 숨김 */
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-
-  /* 부드러운 전환 효과 */
   transition: opacity 0.3s ease-in-out;
 }
 
@@ -241,15 +238,12 @@ body{
 .search-content {
   max-width: 900px;
   margin: 150px auto 0;
-  /* 상단에서 띄우기 */
   padding: 20px;
   position: relative;
 }
 
-/* 닫기 버튼 위치 (이미지의 'X' 위치와 유사하게) */
 #search-close-btn {
   position: absolute;
-  /* header 영역 위에 배치 */
   top: -100px;
   right: 30px;
   background: none;

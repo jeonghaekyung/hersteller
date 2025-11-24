@@ -53,7 +53,7 @@
 
 #container .main_visual .txt_box>.btn_e04 {
   display: block;
-  margin-top: 254px;
+  margin-top: 244px;
   padding: 10px 0;
   width: 140px;
   border: 1px solid #666;
@@ -74,6 +74,10 @@
 
 #container .swiper-button-next:after,
 .swiper-button-prev:after {
+  display: none;
+}
+
+#container .swiper-pagination {
   display: none;
 }
 
@@ -354,7 +358,7 @@
 }
 
 #container .instagram .instagram_list {
-  position: relative;  
+  position: relative;
 }
 
 #container .instagram .instagram_list ul li {
