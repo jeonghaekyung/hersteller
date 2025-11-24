@@ -1221,10 +1221,12 @@ body {
 
   #container .brand_story .accordion_item .info_wrap ul {
     margin-top: 8px;
-    padding: 8px;
+    padding: 10px;
+    width: 101%;
   }
 
   #container .brand_story .accordion_item .info_wrap ul li {
+    margin-bottom: 5px;
     line-height: 18px;
   }
 
