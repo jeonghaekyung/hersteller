@@ -1129,6 +1129,10 @@ body {
 
   }
 
+  #header .btn_hamburger.open span:first-child {
+    transform: translateY(4px) rotate(45deg);
+  }
+
   /*util 영역*/
   #header .header_inner .util_area ul {
     column-gap: 6px;
