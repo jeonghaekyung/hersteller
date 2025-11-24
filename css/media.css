@@ -414,7 +414,7 @@ body {
   }
 
   #header .btn_hamburger.open span:nth-child(3) {
-    transform: translateY(-9px) rotate(-45deg);
+    transform: translateY(-7px) rotate(-45deg);
     background-color: #fff;
   }
 
@@ -1215,7 +1215,7 @@ body {
     font-size: 1.3rem;
   }
 
-  #container .brand_story .accordion_item .info_wrap b{
+  #container .brand_story .accordion_item .info_wrap b {
     display: none;
   }
 
@@ -1223,6 +1223,7 @@ body {
     margin-top: 8px;
     padding: 8px;
   }
+
   #container .brand_story .accordion_item .info_wrap p {
     padding-top: 4px;
   }
@@ -1233,7 +1234,7 @@ body {
     padding: 0 16px;
   }
 
-  #container .product_type .type_list ul li{
+  #container .product_type .type_list ul li {
     display: block;
     width: 30px;
     white-space: normal;
