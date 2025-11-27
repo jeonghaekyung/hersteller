@@ -196,7 +196,7 @@ body {
 /*breakpoint 1280*/
 @media (max-width: 1280px) {
 
-  /*헤더영역*/
+  /* 메인 페이지 헤더 */
   #header .header_inner {
     padding: 26px 56px;
   }
@@ -217,6 +217,30 @@ body {
   }
 
   #header .header_inner .util_area ul li img {
+    width: 24px;
+  }
+
+  /* 모든 서브 페이지 공통 헤더 */
+  body.sub-page #header .header_inner {
+    padding: 26px 56px;
+  }
+
+  /*gnb*/
+  body.sub-page #header .header_inner #gnb>ul>li>a {
+    padding: 5px 10px;
+    font-size: 1.6rem;
+  }
+
+  body.sub-page #header .header_inner h1 img {
+    width: 160px;
+  }
+
+  /*util 영역*/
+  body.sub-page #header .header_inner .util_area ul {
+    column-gap: 16px;
+  }
+
+  body.sub-page #header .header_inner .util_area ul li img {
     width: 24px;
   }
 
@@ -368,6 +392,7 @@ body {
 /*breakpoint 1024*/
 @media (max-width: 1024px) {
 
+  /* 메인 페이지 헤더 */
   #header .header_inner {
     padding: 26px;
   }
@@ -401,6 +426,13 @@ body {
     width: 100%;
     height: 2px;
     background-color: #333;
+    transition: 0.3s;
+  }
+
+  .sub-page #header .header_inner .btn_hamburger span {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
     transition: 0.3s;
   }
 
@@ -455,6 +487,109 @@ body {
   }
 
   #header .header_inner .mo_menu_container .mo_gnb li>.depth02 a {
+    display: block;
+    padding: 5px 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #333;
+    text-align: left;
+  }
+
+  /* 모든 서브 페이지 공통 헤더 */
+  body.sub-page #header .header_inner {
+    padding: 26px;
+  }
+
+  body.sub-page #header .header_inner #gnb {
+    display: none;
+  }
+
+  /*햄버거 버튼 및 모바일 메뉴 활성화*/
+  body.sub-page #header .header_inner .btn_hamburger {
+    position: absolute;
+    left: 20px;
+    top: 34%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 18px;
+    opacity: 0;
+    visibility: hidden;
+    cursor: pointer;
+    z-index: 210;
+  }
+
+  body.sub-page #header .header_inner .btn_hamburger {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  body.sub-page #header .header_inner .btn_hamburger span {
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    transition: 0.3s;
+  }
+
+  body.sub-page #header .header_inner .btn_hamburger span {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    transition: 0.3s;
+  }
+
+  body.sub-page #header .btn_hamburger.open span:first-child {
+    transform: translateY(9px) rotate(45deg);
+    background-color: #fff;
+  }
+
+  body.sub-page #header .btn_hamburger.open span:nth-child(2) {
+    opacity: 0;
+  }
+
+  body.sub-page #header .btn_hamburger.open span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+    background-color: #fff;
+  }
+
+  body.sub-page #header .header_inner .mo_menu_container {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    width: 70%;
+    height: 100vh;
+    padding: 90px 46px;
+    background-color: #7A9783;
+    transform: translateX(-100%);
+    transition: 0.3s ease-out;
+  }
+
+  body.sub-page #header .header_inner .mo_menu_container.open {
+    transform: translateX(0);
+  }
+
+  body.sub-page #header .header_inner .mo_menu_container .mo_gnb>ul>li {
+    padding-bottom: 16px;
+  }
+
+  body.sub-page #header .header_inner .mo_menu_container .mo_gnb ul>li a {
+    display: block;
+    font-size: 1.8rem;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  body.sub-page #header .header_inner .mo_menu_container .mo_gnb li>.depth02 {
+    display: none;
+    margin-top: 8px;
+    padding: 10px 12px;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  body.sub-page #header .header_inner .mo_menu_container .mo_gnb li>.depth02 a {
     display: block;
     padding: 5px 0;
     font-size: 1.4rem;
@@ -715,7 +850,7 @@ body {
 /*breakpoint 768*/
 @media (max-width: 768px) {
 
-  /*헤더영역*/
+  /* 메인 페이지 헤더 */
   #header .header_inner h1 img {
     width: 130px;
   }
@@ -881,6 +1016,7 @@ body {
 /*breakpoint 480*/
 @media (max-width: 480px) {
 
+  /* 메인 페이지 헤더 */
   #header .header_inner {
     padding: 16px;
   }
@@ -1127,6 +1263,7 @@ body {
 /*breakpoint 360*/
 @media (max-width: 360px) {
 
+  /* 메인 페이지 헤더 */
   #header .header_inner h1 img {
     top: 12px;
     width: 100px;
