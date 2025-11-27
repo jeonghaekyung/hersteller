@@ -513,7 +513,7 @@ body {
 
   /* 아코디언 구조 */
   #container .brand_story .accordion_item .accordion_title h2 {
-    padding: 0 32px;
+    padding: 0 31px;
     font-size: 3rem;
   }
 
@@ -697,14 +697,19 @@ body {
     right: 0;
   }
 
-  #container .best_item .best_list ul li img {
-    height: 292px;
+  #container .brand_story .accordion_item.active .accordion_cont {
+    overflow-y: auto;
   }
-
+  
   /*제품유형바로가기*/
   #container .product_type .type_list ul li img {
    width: 92px;
   }
+
+  #container .best_item .best_list ul li img {
+    height: 292px;
+  }
+
 }
 
 /*breakpoint 768*/
@@ -1213,7 +1218,6 @@ body {
 
   #container .brand_story .accordion_item.active .accordion_cont {
     max-height: 250px;
-    overflow-y: auto;
   }
 
   #container .brand_story .accordion_item .info_wrap {
