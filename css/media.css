@@ -193,6 +193,64 @@ body {
   }
 }
 
+/*서브전용 1440*/
+@media (max-width: 1440px) {
+
+  /*브랜드스토리*/
+  body.sub-page #container .brand-content {
+    max-width: 1440px;
+  }
+
+  body.sub-page #container .brand-content .identity img {
+    max-width: 720px;
+    width: 100%;
+  }
+
+  body.sub-page #container .brand-content .identity .text-area {
+    padding: 60px;
+    max-width: 720px;
+    width: 100%;
+  }
+
+  body.sub-page #container .brand-content .identity .text-area h4 {
+    margin-bottom: 24px;
+    font-size: 2.2rem;
+  }
+
+  body.sub-page #container .brand-content .identity .text-area p {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    line-height: 32px;
+  }
+
+  body.sub-page #container .brand-content .value .value-list {
+    padding: 60px;
+    max-width: 720px;
+    width: 100%;
+  }
+
+  body.sub-page #container .brand-content .value img {
+    max-width: 720px;
+    width: 100%;
+  }
+
+  body.sub-page #container .brand-content .value .value-list b {
+    margin-bottom: 3px;
+    font-size: 2.2rem;
+  }
+
+  body.sub-page #container .brand-content .value .value-list p {
+    margin-bottom: 12px;
+    font-size: 1.7rem;
+    line-height: 30px;
+  }
+
+  body.sub-page #container .brand-slogan {
+    margin: 132px 0 142px;
+  }
+
+}
+
 /*breakpoint 1280*/
 @media (max-width: 1280px) {
 
@@ -220,7 +278,7 @@ body {
     width: 24px;
   }
 
-  /* 모든 서브 페이지 공통 헤더 */
+  /* 서브 페이지 공통 헤더 */
   body.sub-page #header .header_inner {
     padding: 26px 56px;
   }
@@ -389,6 +447,38 @@ body {
   }
 }
 
+/*서브전용 1280*/
+@media (max-width: 1280px) {
+
+  /*브랜드스토리*/
+  body.sub-page #container .brand-content {
+    max-width: 1280px;
+  }
+
+  body.sub-page #container .brand-content .identity img {
+    max-width: 640px;
+  }
+
+  body.sub-page #container .brand-content .identity .text-area {
+    padding: 48px 0 0 50px;
+    max-width: 640px;
+  }
+
+  body.sub-page #container .brand-content .value .value-list {
+    padding: 48px 0 0 50px;
+    max-width: 640px;
+  }
+
+  body.sub-page #container .brand-content .value img {
+    max-width: 640px;
+  }
+
+  body.sub-page #container .brand-content .value .value-list p {
+    line-height: 28px;
+  }
+
+}
+
 /*breakpoint 1024*/
 @media (max-width: 1024px) {
 
@@ -495,7 +585,7 @@ body {
     text-align: left;
   }
 
-  /* 모든 서브 페이지 공통 헤더 */
+  /* 서브 페이지 공통 헤더 */
   body.sub-page #header .header_inner {
     padding: 26px;
   }
@@ -814,6 +904,105 @@ body {
   }
 }
 
+/*서브전용 1024*/
+@media (max-width: 1024px) {
+
+  body.sub-page #container .sub_visual .txt_box p {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  body.sub-page #container .brand-intro h3 {
+    margin-top: 100px;
+    font-size: 4rem;
+  }
+
+  body.sub-page #container .brand-intro span {
+    padding: 14px 0 18px;
+  }
+
+  body.sub-page #container .brand-intro .intro-text {
+    margin-bottom: 78px;
+  }
+
+  body.sub-page #container .brand-intro .intro-text strong {
+    padding-bottom: 24px;
+    font-size: 2.2rem;
+  }
+
+  body.sub-page #container .brand-intro .intro-text p {
+    font-size: 1.6rem;
+    line-height: 28px;
+  }
+
+  body.sub-page #container .brand-content {
+    max-width: 1024px;
+  }
+
+  body.sub-page #container .brand-content .identity img {
+    max-width: 512px;
+  }
+
+  body.sub-page #container .brand-content .identity .text-area {
+    padding: 30px 0 0 36px;
+    max-width: 512px;
+  }
+
+  body.sub-page #container .brand-content .identity .text-area h4 {
+    margin-bottom: 16px;
+    font-size: 2rem;
+  }
+
+  body.sub-page #container .brand-content .identity .text-area p {
+    margin-bottom: 14px;
+    font-size: 1.5rem;
+    line-height: 26px;
+  }
+
+  body.sub-page #container .brand-content .value .value-list {
+    padding: 30px 0 0 36px;
+    max-width: 512px;
+  }
+
+  body.sub-page #container .brand-content .value img {
+    max-width: 512px;
+  }
+
+  body.sub-page #container .brand-content .value .value-list b {
+    margin-bottom: 3px;
+    font-size: 1.8rem;
+  }
+
+  body.sub-page #container .brand-content .value .value-list p {
+    margin-bottom: 8px;
+    font-size: 1.5rem;
+    line-height: 24px;
+  }
+
+  body.sub-page #container .brand-slogan {
+    margin: 110px 0 122px;
+  }
+
+  #container .brand-slogan h4 {
+    font-size: 4rem;
+  }
+
+  #container .brand-slogan span {
+    padding: 14px 0 18px;
+  }
+
+  #container .brand-slogan strong {
+    font-size: 2.4rem;
+  }
+
+  #container .brand-slogan p {
+    margin-top: 16px;
+    font-size: 1.8rem;
+    line-height: 36px;
+  }
+}
+
+
 /*breakpoint 960*/
 @media (max-width: 960px) {
 
@@ -835,10 +1024,10 @@ body {
   #container .brand_story .accordion_item.active .accordion_cont {
     overflow-y: auto;
   }
-  
+
   /*제품유형바로가기*/
   #container .product_type .type_list ul li img {
-   width: 92px;
+    width: 92px;
   }
 
   #container .best_item .best_list ul li img {
@@ -847,11 +1036,59 @@ body {
 
 }
 
+/*서브전용 960*/
+@media (max-width: 960px) {
+
+  body.sub-page #container .brand-content {
+    max-width: 960px;
+  }
+
+  body.sub-page #container .brand-content .identity img {
+    max-width: 480px;
+  }
+
+  body.sub-page #container .brand-content .identity .text-area {
+    padding: 30px 0 0 36px;
+    max-width: 480px;
+  }
+
+  body.sub-page #container .brand-content .identity .text-area h4 {
+    font-size: 1.8rem;
+  }
+
+  body.sub-page #container .brand-content .identity .text-area p {
+    margin-bottom: 10px;
+  }
+
+  body.sub-page #container .brand-content .value .value-list {
+    padding: 30px 0 0 36px;
+    max-width: 480px;
+  }
+
+  body.sub-page #container .brand-content .value img {
+    max-width: 480px;
+  }
+
+  body.sub-page #container .brand-content .value .value-list b {
+    margin-bottom: 3px;
+    font-size: 1.6rem;
+  }
+
+  body.sub-page #container .brand-content .value .value-list p {
+    line-height: 22px;
+  }
+}
+
 /*breakpoint 768*/
 @media (max-width: 768px) {
 
   /* 메인 페이지 헤더 */
   #header .header_inner h1 img {
+    width: 130px;
+  }
+
+  /* 서브 페이지 공통 헤더 */
+  body.sub-page #header .header_inner h1 img {
     width: 130px;
   }
 
@@ -1013,6 +1250,70 @@ body {
   }
 }
 
+/*서브전용 768*/
+@media (max-width: 768px) {
+
+  body.sub-page #container .sub_visual .txt_box {
+    top: 220px;
+    width: 90%;
+  }
+
+  body.sub-page #container .sub_visual img {
+    height: 83vh;
+  }
+
+  body.sub-page #container .sub_visual .txt_box h2 {
+    font-size: 4.8rem;
+  }
+
+  body.sub-page #container .sub_visual .txt_box strong {
+    margin: 68px 0 4px;
+    font-size: 2.8rem;
+  }
+
+  body.sub-page #container .sub_visual .txt_box p {
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 22px;
+    word-break: keep-all;
+  }
+
+  body.sub-page #container .brand-content .identity {
+    flex-wrap: wrap;
+    padding: 0 30px;
+    width: 100%;
+  }
+
+  body.sub-page #container .brand-content .identity span,
+  body.sub-page #container .brand-content .identity img {
+    max-width: 708px;
+    width: 100%;
+  }
+
+  body.sub-page #container .brand-content .identity .text-area {
+    padding: 42px 50px;
+    max-width: 708px;
+  }
+
+  body.sub-page #container .brand-content .value {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    padding: 0 30px;
+    width: 100%;
+  }
+
+  body.sub-page #container .brand-content .value .value-list {
+    padding: 42px 50px;
+    max-width: 708px;
+  }
+
+  body.sub-page #container .brand-content .value span,
+  body.sub-page #container .brand-content .value img {
+    max-width: 708px;
+  }
+}
+
+
 /*breakpoint 480*/
 @media (max-width: 480px) {
 
@@ -1022,6 +1323,16 @@ body {
   }
 
   #header .header_inner h1 img {
+    top: 14px;
+    width: 116px;
+  }
+
+  /* 서브 페이지 공통 헤더 */
+  body.sub-page #header .header_inner {
+    padding: 16px;
+  }
+
+  body.sub-page #header .header_inner h1 img {
     top: 14px;
     width: 116px;
   }
@@ -1260,6 +1571,63 @@ body {
   }
 }
 
+/*서브전용 480*/
+@media (max-width: 480px) {
+
+  body.sub-page #container .sub_visual .txt_box h2 {
+    font-size: 3.8rem;
+    line-height: 40px;
+  }
+
+  body.sub-page #container .brand-intro h3 {
+    margin-top: 74px;
+    font-size: 3.6rem;
+  }
+
+  body.sub-page #container .brand-intro .intro-text {
+    margin-bottom: 68px;
+    padding: 0 30px;
+    width: 100%;
+  }
+
+  body.sub-page #container .brand-intro .intro-text strong {
+    padding-bottom: 18px;
+    font-size: 1.8rem;
+  }
+
+  body.sub-page #container .brand-intro .intro-text p {
+    font-size: 1.4rem;
+    line-height: 24px;
+  }
+
+  body.sub-page #container .brand-content .identity .text-area {
+    padding: 30px;
+  }
+
+  body.sub-page #container .brand-content .value .value-list {
+    padding: 36px;
+  }
+
+  body.sub-page #container .brand-slogan {
+    margin: 74px 30px 86px;
+    word-break: keep-all;
+  }
+
+  body.sub-page #container .brand-slogan h4 {
+    font-size: 3.6rem;
+  }
+
+  body.sub-page #container .brand-slogan strong {
+    font-size: 1.8rem;
+  }
+
+  body.sub-page #container .brand-slogan p {
+    font-size: 1.5rem;
+    line-height: 28px;
+  }
+}
+
+
 /*breakpoint 360*/
 @media (max-width: 360px) {
 
@@ -1288,6 +1656,33 @@ body {
   #header .header_inner .util_area ul li img {
     width: 20px;
   }
+
+  /* 서브 페이지 공통 헤더 */
+  body.sub-page #header .header_inner h1 img {
+    top: 12px;
+    width: 100px;
+  }
+
+  /*햄버거 버튼 및 모바일 메뉴 활성화*/
+  body.sub-page #header .header_inner .btn_hamburger {
+    width: 16px;
+    height: 13px;
+
+  }
+
+  body.sub-page #header .btn_hamburger.open span:first-child {
+    transform: translateY(4px) rotate(45deg);
+  }
+
+  /*util 영역*/
+  body.sub-page #header .header_inner .util_area ul {
+    column-gap: 6px;
+  }
+
+  body.sub-page #header .header_inner .util_area ul li img {
+    width: 20px;
+  }
+
 
   /*검색창*/
   #full-search-container {
@@ -1407,7 +1802,7 @@ body {
     height: 210px;
   }
 
-  #container .best_item .best_list ul li p{
+  #container .best_item .best_list ul li p {
     line-height: 22px;
   }
 
@@ -1416,7 +1811,7 @@ body {
     padding: 40px 16px;
   }
 
-   #container .instagram .instagram_list ul li {
+  #container .instagram .instagram_list ul li {
     width: 396px;
   }
 
@@ -1441,5 +1836,95 @@ body {
     width: 130px;
     height: 130px;
   }
+}
+
+/*서브전용 360*/
+@media (max-width: 360px) {
+
+  body.sub-page #container .sub_visual .txt_box {
+    width: 86%;
+  }
+
+  body.sub-page #container .sub_visual .txt_box strong {
+    margin: 86px 0 6px;
+    font-size: 2.4rem;
+  }
+
+  body.sub-page #container .sub_visual .txt_box p {
+    font-size: 1.2rem;
+    line-height: 18px;
+  }
+
+  body.sub-page #container .brand-intro span,
+  body.sub-page #container .brand-slogan span {
+    display: none;
+  }
+
+  body.sub-page #container .brand-intro h3 {
+    margin-top: 52px;
+  }
+
+  body.sub-page #container .brand-intro .intro-text strong {
+    padding: 6px 0 16px;
+    font-size: 1.6rem;
+  }
+
+  body.sub-page #container .brand-intro .intro-text {
+    margin-bottom: 50px;
+  }
+
+  body.sub-page #container .brand-content .identity {
+    padding: 0 16px;
+  }
+
+  body.sub-page #container .brand-content .value {
+    padding: 0 16px;
+  }
+
+  body.sub-page #container .brand-content .identity .text-area {
+    padding: 24px;
+  }
+
+  body.sub-page #container .brand-content .identity .text-area h4 {
+    font-size: 1.6rem;
+  }
+
+  body.sub-page #container .brand-content .identity .text-area p {
+    margin-bottom: 4px;
+    font-size: 1.3rem;
+  }
+
+  body.sub-page #container .brand-content .identity .text-area p br,
+  body.sub-page #container .brand-slogan p br {
+    display: none;
+  }
+
+  body.sub-page #container .brand-content .value .value-list {
+    padding: 24px;
+  }
+
+  body.sub-page #container .brand-content .value .value-list p {
+    font-size: 1.3rem;
+    line-height: 20px;
+  }
+
+  body.sub-page #container .brand-slogan {
+    margin: 60px 30px 66px;
+  }
+
+  body.sub-page #container .brand-slogan h4 {
+    padding-bottom: 12px;
+    font-size: 3rem;
+  }
+
+  body.sub-page #container .brand-slogan strong {
+    font-size: 1.6rem;
+  }
+
+  body.sub-page #container .brand-slogan p {
+    font-size: 1.4rem;
+    line-height: 30px;
+  }
+
 
 }
