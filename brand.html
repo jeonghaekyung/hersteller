@@ -14,7 +14,8 @@
   <!--font-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/sub.css">
@@ -61,7 +62,7 @@
                 </li>
               </ul>
             </li>
-          </ul>          
+          </ul>
         </nav>
         <!--모바일 헤더 햄버거 메뉴-->
         <div class="btn_hamburger">
@@ -107,7 +108,7 @@
           <a href="index.html">
             <img src="images/common/header_logo_w.png" alt="허스텔러 로고">
           </a>
-        </h1>        
+        </h1>
         <!--util 영역-->
         <div class="util_area">
           <ul>
@@ -123,7 +124,7 @@
             </li>
             <li>
               <a href="https://herstellerbeauty.com/" target="_blank">
-              <img src="images/common/icon_global_w.png" alt="영문사이트로 이동">
+                <img src="images/common/icon_global_w.png" alt="영문사이트로 이동">
               </a>
             </li>
           </ul>
@@ -159,12 +160,18 @@
     <main id="container">
       <!--서브 비주얼 영역-->
       <div class="sub_visual">
-        <span><img src="images/sub/brand_visual.jpg" alt="따뜻한 햇빛과 보랏빛 야생화가 어우러진 자연 이미지"></span>
+        <picture>
+          <!-- 480px 이하일 때 -->
+          <source media="(max-width: 480px)" srcset="images/sub/brand_480.jpg">
+          <!-- 1024px 이하일 때 -->
+          <source media="(max-width: 1024px)" srcset="images/sub/brand_1024.jpg">
+          <img src="images/sub/brand_visual.jpg" alt="따뜻한 햇빛과 보랏빛 야생화가 어우러진 자연 이미지">
+        </picture>
         <div class="txt_box">
           <h2>Brand story</h2>
           <strong>Everyday Wonder!</strong>
           <p>“당신의 작은 선택 하나가 일상을 바꾸는 시작이 됩니다.<br>
-          허스텔러와 함께하는 순간, 평범했던 하루가 놀라운 감동으로 채워집니다.”</p>
+            허스텔러와 함께하는 순간, 평범했던 하루가 놀라운 감동으로 채워집니다.”</p>
         </div>
       </div>
       <!--브랜드스토리 인트로-->
@@ -176,7 +183,7 @@
           <p>우리는 믿습니다.</p>
           <p>진정한 아름다움은 스스로 원하는 삶을 창조하는 힘에서 비롯된다고.</p>
           <p>매일의 작은 선택, 사소한 루틴, 그리고 내면의 목소리에 귀 기울이는 순간들이</p>
-          <p>결국 당신만의 삶을 완성해 나갑니다.</p>       
+          <p>결국 당신만의 삶을 완성해 나갑니다.</p>
         </div>
       </section>
       <!--브랜드 철학-->
@@ -185,7 +192,7 @@
           <span><img src="images/sub/img_story01.jpg" alt="흰 드레스 여성이 왼손으로 라벤더를 쓰다듬는 장면. 비건 및 크루얼티 프리 철학 강조."></span>
           <div class="text-area">
             <h4>Her&#39;s teller는<br>
-               &#39;당신의 목소리를 담는 브랜드&#39;입니다.</h4>
+              &#39;당신의 목소리를 담는 브랜드&#39;입니다.</h4>
             <p>허스텔러는 &#39;Her(그녀)&#39;를 통해 고객을 상징하지만,<br>
               그 범위를 넘어 우리 모두의 목소리를 포착합니다.<br>
               &#39;Teller&#39;는 단순한 전달자를 넘어,<br>
@@ -199,17 +206,17 @@
             <li>
               <b>비건 & 크루얼티 프리</b>
               <p>오랜 비건 노하우를 바탕으로,<br>
-              동물 실험 없이 완성한 100% 비건 뷰티 제품을 제공합니다.</p>
+                동물 실험 없이 완성한 100% 비건 뷰티 제품을 제공합니다.</p>
             </li>
             <li>
               <b>의식 있는 아름다움</b>
               <p>건강한 피부와 지속 가능한 삶을 위해<br>
-              천연 성분과 검증된 효능에 집중합니다.</p>
+                천연 성분과 검증된 효능에 집중합니다.</p>
             </li>
             <li>
               <b>친환경 패키징</b>
               <p>플라스틱 사용을 줄이고,<br>
-              지구와 공존하는 포장재를 연구하고 개발합니다.</p>
+                지구와 공존하는 포장재를 연구하고 개발합니다.</p>
             </li>
           </ul>
           <span><img src="images/sub/img_story02.jpg" alt="햇빛이 비치는 푸른 풀밭과 숲 자연 경관. 윤리적이고 지속 가능한 철학을 나타냄."></span>
@@ -220,11 +227,11 @@
         <span><img src="images/sub/line_60px.png" alt=""></span>
         <strong>매일의 놀라움, 허스텔러!</strong>
         <p>“매일의 작은 만남이 세상을 더 아름답게 만듭니다.<br>
-        허스텔러는 오랜 비건 노하우를 바탕으로 탄생한 <i>비건 & 크루얼티 프리 브랜드</i>로,<br>
-        자연에서 온 최적의 성분과 검증된 효능을 담아<br>
-        당신의 일상에 신선한 에너지와 행복을 선물합니다.”</p>
+          허스텔러는 오랜 비건 노하우를 바탕으로 탄생한 <i>비건 & 크루얼티 프리 브랜드</i>로,<br>
+          자연에서 온 최적의 성분과 검증된 효능을 담아<br>
+          당신의 일상에 신선한 에너지와 행복을 선물합니다.”</p>
       </section>
-    </main>    
+    </main>
     <!--퀵영역-->
     <div id="quick_area">
       <div class="btn_top">
@@ -232,7 +239,7 @@
       </div>
       <div class="talk">
         <a href="#" target="_blank"><span><img src="images/common/btn_talk.png" alt="카카오톡 상담으로 이동"></span></a>
-      </div>      
+      </div>
     </div>
     <!--푸터영역-->
     <footer id="footer">
@@ -276,7 +283,8 @@
           <li>
             <div class="sns_area">
               <ul>
-                <li><a href="#" target="_blank"><img src="images/common/icon_instagram.png" alt="인스타그램 사이트로 이동"></a></li>
+                <li><a href="#" target="_blank"><img src="images/common/icon_instagram.png" alt="인스타그램 사이트로 이동"></a>
+                </li>
                 <li><a href="#" target="_blank"><img src="images/common/icon_youtube.png" alt="유투브 사이트로 이동"></a></li>
                 <li><a href="#" target="_blank"><img src="images/common/icon_facebook.png" alt="페이스북 사이트로 이동"></a></li>
                 <li><a href="#" target="_blank"><img src="images/common/icon_tiktok.png" alt="틱톡 사이트로 이동"></a></li>
@@ -285,7 +293,7 @@
           </li>
         </ul>
         <p class="copy">Copyright © 2025 herstellerbeauty. All rights reserved.</p>
-      </div>      
+      </div>
     </footer>
   </div>
   <!-- Swiper JS -->
