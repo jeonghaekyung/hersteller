@@ -700,6 +700,11 @@ body {
   #container .best_item .best_list ul li img {
     height: 292px;
   }
+
+  /*제품유형바로가기*/
+  #container .product_type .type_list ul li img {
+   width: 92px;
+  }
 }
 
 /*breakpoint 768*/
