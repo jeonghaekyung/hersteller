@@ -1845,8 +1845,12 @@ body {
     width: 86%;
   }
 
+  body.sub-page #container .sub_visual img {
+    height: 70vh;
+  }
+
   body.sub-page #container .sub_visual .txt_box strong {
-    margin: 86px 0 6px;
+    margin: 90px 0 6px;
     font-size: 2.4rem;
   }
 
@@ -1925,6 +1929,4 @@ body {
     font-size: 1.4rem;
     line-height: 30px;
   }
-
-
 }
