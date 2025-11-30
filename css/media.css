@@ -1842,21 +1842,15 @@ body {
 @media (max-width: 360px) {
 
   body.sub-page #container .sub_visual .txt_box {
-    top: 164px;
     width: 86%;
   }
 
-  body.sub-page #container .sub_visual img {
-    height: 64vh;
-  }
-
   body.sub-page #container .sub_visual .txt_box strong {
-    margin: 60px 0 6px;
+    margin: 100px 0 6px;
     font-size: 2.4rem;
   }
 
   body.sub-page #container .sub_visual .txt_box p {
-    font-size: 1.2rem;
     line-height: 18px;
   }
 
@@ -1929,5 +1923,18 @@ body {
   body.sub-page #container .brand-slogan p {
     font-size: 1.4rem;
     line-height: 30px;
+  }
+}
+
+/*서브전용 320*/
+@media (max-width: 320px) {
+
+  body.sub-page #container .sub_visual .txt_box {
+    top: 120px;
+    width: 88%;
+  }
+
+  body.sub-page #container .sub_visual .txt_box strong {
+    margin: 68px 0 6px;
   }
 }
