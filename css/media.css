@@ -1253,15 +1253,15 @@ body {
 /*서브전용 768*/
 @media (max-width: 768px) {
 
+  body.sub-page #container .sub_visual img {
+    height: 83vh;
+  }
+  
   body.sub-page #container .sub_visual .txt_box {
     top: 220px;
     width: 90%;
   }
-
-  body.sub-page #container .sub_visual img {
-    height: 83vh;
-  }
-
+  
   body.sub-page #container .sub_visual .txt_box h2 {
     font-size: 4.8rem;
   }
@@ -1846,7 +1846,7 @@ body {
   }
 
   body.sub-page #container .sub_visual img {
-    height: 70vh;
+    height: 64vh;
   }
 
   body.sub-page #container .sub_visual .txt_box strong {
