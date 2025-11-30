@@ -14,7 +14,7 @@ body {
 /* =========================================
    중단점: 1440px
    ========================================= */
-/*breakpoint 1440*/
+/*메인 1440px*/
 @media (max-width: 1440px) {
 
   /*검색창*/
@@ -196,7 +196,7 @@ body {
   }
 }
 
-/*서브전용 1440*/
+/*서브전용 1440px*/
 @media (max-width: 1440px) {
 
   /*브랜드스토리*/
@@ -256,7 +256,7 @@ body {
 /* =========================================
    중단점: 1280px
    ========================================= */
-/*breakpoint 1280*/
+/*메인 1280px*/
 @media (max-width: 1280px) {
 
   /* 메인 페이지 헤더 */
@@ -428,7 +428,7 @@ body {
   }
 }
 
-/*서브전용 1280*/
+/*서브전용 1280px*/
 @media (max-width: 1280px) {
 
   /* 서브 페이지 공통 헤더 */
@@ -486,7 +486,7 @@ body {
 /* =========================================
    중단점: 1024px
    ========================================= */
-/*breakpoint 1024*/
+/*메인 1024px*/
 @media (max-width: 1024px) {
 
   /* 메인 페이지 헤더 */
@@ -801,7 +801,7 @@ body {
   }
 }
 
-/*서브전용 1024*/
+/*서브전용 1024px*/
 @media (max-width: 1024px) {
 
   /* 서브 페이지 공통 헤더 */
@@ -907,7 +907,8 @@ body {
     text-align: left;
   }
 
-  body.sub-page #container .sub_visual .txt_box p {
+  body.sub-page #container .sub_visual .txt_box p,
+  #container .sub_visual .txt_box p {
     font-size: 1.5rem;
     font-weight: 400;
   }
@@ -1005,7 +1006,7 @@ body {
 /* =========================================
    중단점: 960px
    ========================================= */
-/*breakpoint 960*/
+/*메인 960px*/
 @media (max-width: 960px) {
 
   /*검색창*/
@@ -1037,7 +1038,7 @@ body {
   }
 }
 
-/*서브전용 960*/
+/*서브전용 960px*/
 @media (max-width: 960px) {
 
   body.sub-page #container .brand-content {
@@ -1083,7 +1084,7 @@ body {
 /* =========================================
    중단점: 768px
    ========================================= */
-/*breakpoint 768*/
+/*메인 768px*/
 @media (max-width: 768px) {
 
   /* 메인 페이지 헤더 */
@@ -1249,7 +1250,7 @@ body {
   }
 }
 
-/*서브전용 768*/
+/*서브전용 768px*/
 @media (max-width: 768px) {
 
   /* 서브 페이지 공통 헤더 */
@@ -1257,25 +1258,25 @@ body {
     width: 130px;
   }
 
-  body.sub-page #container .sub_visual {
-    height: 83vh;
-  }
-
-  body.sub-page #container .sub_visual .txt_box {
+  body.sub-page #container .sub_visual .txt_box,
+  #container .sub_visual .txt_box {
     top: 220px;
     width: 90%;
   }
 
-  body.sub-page #container .sub_visual .txt_box h2 {
+  body.sub-page #container .sub_visual .txt_box h2,
+  #container .sub_visual .txt_box h2 {
     font-size: 4.8rem;
   }
 
-  body.sub-page #container .sub_visual .txt_box strong {
-    margin: 68px 0 4px;
+  body.sub-page #container .sub_visual .txt_box strong,
+  #container .sub_visual .txt_box strong {
+    margin: 90px 0 4px;
     font-size: 2.8rem;
   }
 
-  body.sub-page #container .sub_visual .txt_box p {
+  body.sub-page #container .sub_visual .txt_box p,
+  #container .sub_visual .txt_box p {
     font-size: 1.4rem;
     font-weight: 300;
     line-height: 22px;
@@ -1320,7 +1321,7 @@ body {
 /* =========================================
    중단점: 480px
    ========================================= */
-/*breakpoint 480*/
+/*메인 480px*/
 @media (max-width: 480px) {
 
   /* 메인 페이지 헤더 */
@@ -1567,7 +1568,7 @@ body {
   }
 }
 
-/*서브전용 480*/
+/*서브전용 480px*/
 @media (max-width: 480px) {
 
   /* 서브 페이지 공통 헤더 */
@@ -1580,7 +1581,8 @@ body {
     width: 116px;
   }
 
-  body.sub-page #container .sub_visual .txt_box h2 {
+  body.sub-page #container .sub_visual .txt_box h2,
+  #container .sub_visual .txt_box h2 {
     font-size: 3.8rem;
     line-height: 40px;
   }
@@ -1636,7 +1638,7 @@ body {
 /* =========================================
    중단점: 360px
    ========================================= */
-/*breakpoint 360*/
+/*메인 360px*/
 @media (max-width: 360px) {
 
   /* 메인 페이지 헤더 */
@@ -1818,7 +1820,7 @@ body {
   }
 }
 
-/*서브전용 360*/
+/*서브전용 360px*/
 @media (max-width: 360px) {
 
   /* 서브 페이지 공통 헤더 */
@@ -1831,7 +1833,6 @@ body {
   body.sub-page #header .header_inner .btn_hamburger {
     width: 16px;
     height: 13px;
-
   }
 
   body.sub-page #header .btn_hamburger.open span:first-child {
@@ -1847,20 +1848,19 @@ body {
     width: 20px;
   }
 
-  body.sub-page #container .sub_visual {
-    height: 88vh;
+  body.sub-page #container .sub_visual .txt_box,
+  #container .sub_visual .txt_box {
+    width: 90%;
   }
 
-  body.sub-page #container .sub_visual .txt_box {
-    width: 86%;
-  }
-
-  body.sub-page #container .sub_visual .txt_box strong {
+  body.sub-page #container .sub_visual .txt_box strong,
+  #container .sub_visual .txt_box strong {
     margin: 100px 0 6px;
     font-size: 2.4rem;
   }
 
-  body.sub-page #container .sub_visual .txt_box p {
+  body.sub-page #container .sub_visual .txt_box p,
+  #container .sub_visual .txt_box p {
     line-height: 18px;
   }
 
@@ -1939,15 +1939,16 @@ body {
 /* =========================================
    중단점: 320px
    ========================================= */
-/*서브전용 320*/
+/*서브전용 320px*/
 @media (max-width: 320px) {
 
-  body.sub-page #container .sub_visual .txt_box {
+  body.sub-page #container .sub_visual .txt_box,
+  #container .sub_visual .txt_box {
     top: 120px;
-    width: 88%;
   }
 
-  body.sub-page #container .sub_visual .txt_box strong {
+  body.sub-page #container .sub_visual .txt_box strong,
+  #container .sub_visual .txt_box strong {
     margin: 68px 0 6px;
   }
 }
