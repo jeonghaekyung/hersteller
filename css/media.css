@@ -1841,6 +1841,10 @@ body {
 /*서브전용 360*/
 @media (max-width: 360px) {
 
+  body.sub-page #container .sub_visual img {
+    height: 88vh;
+  }
+  
   body.sub-page #container .sub_visual .txt_box {
     width: 86%;
   }
@@ -1928,6 +1932,10 @@ body {
 
 /*서브전용 320*/
 @media (max-width: 320px) {
+
+  body.sub-page #container .sub_visual img {
+    height: 100vh;
+  }
 
   body.sub-page #container .sub_visual .txt_box {
     top: 120px;
