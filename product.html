@@ -159,12 +159,20 @@
     <main id="container">
       <!--서브 비주얼 영역-->
       <div class="sub_visual">
-        <span><img src="images/sub/product_visual.jpg" alt="허스텔러 리틀드롭스 에센스와 크림이 풀잎, 꽃과 함께 놓인 비건 제품 비주얼."></span>
+        <picture>
+          <!-- 3600px 이하일 때 -->
+          <source media="(max-width: 360px)" srcset="images/sub/product_360.jpg">
+          <!-- 480px 이하일 때 -->
+          <source media="(max-width: 480px)" srcset="images/sub/product_480.jpg">
+          <!-- 1024px 이하일 때 -->
+          <source media="(max-width: 1024px)" srcset="images/sub/product_1024.jpg">
+          <img src="images/sub/product_visual.jpg" alt="허스텔러 리틀드롭스 에센스와 크림이 풀잎, 꽃과 함께 놓인 비건 제품 비주얼.">
+        </picture>
         <div class="txt_box product">
           <h2>product</h2>
           <strong>The Hersteller Collection</strong>
-          <p>“"자연의 진심을 담은 스킨케어 컬렉션"<br>
-          당신의 일상에 자연의 온기를 더하는 제품들을 확인해보세요.</p>
+          <p>"자연의 진심을 담은 스킨케어 컬렉션"<br>
+            당신의 일상에 자연의 온기를 더하는 제품들을 확인해보세요.</p>
         </div>
       </div>
       <!--제품유형 선택-->
