@@ -159,7 +159,13 @@
     <main id="container">
       <!--서브 비주얼 영역-->
       <div class="sub_visual">
-        <span><img src="images/sub/event_visual.jpg" alt="노을 지는 하늘 아래, 두 손으로 새싹 화분을 들고 있는 모습."></span>
+        <picture>
+          <!-- 480px 이하일 때 -->
+          <source media="(max-width: 480px)" srcset="images/sub/event_480.jpg">
+          <!-- 1024px 이하일 때 -->
+          <source media="(max-width: 1024px)" srcset="images/sub/event_1024.jpg">
+          <img src="images/sub/event_visual.jpg" alt="노을 지는 하늘 아래, 두 손으로 새싹 화분을 들고 있는 모습.">
+        </picture>
         <div class="txt_box">
           <h2>Event</h2>
           <strong>Unwind with Hersteller&#39;s Exclusive Event</strong>
