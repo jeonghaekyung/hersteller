@@ -1271,7 +1271,7 @@ body {
 
   body.sub-page #container .sub_visual .txt_box strong,
   #container .sub_visual .txt_box strong {
-    margin: 120px 0 4px;
+    margin: 146px 0 4px;
     font-size: 2.8rem;
   }
 
@@ -1583,7 +1583,8 @@ body {
 
   body.sub-page #container .sub_visual .txt_box strong,
   #container .sub_visual .txt_box strong {
-    margin: 180px 0 6px;
+    margin: 180px 0 12px;
+    line-height: 28px;
   }
 
   body.sub-page #container .sub_visual .txt_box h2,
@@ -1860,8 +1861,8 @@ body {
 
   body.sub-page #container .sub_visual .txt_box strong,
   #container .sub_visual .txt_box strong {
-    margin: 220px 0 6px;
-    font-size: 2.4rem;
+    margin: 216px 0 14px;
+    font-size: 2.4rem;    
   }
 
   body.sub-page #container .sub_visual .txt_box p,
