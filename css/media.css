@@ -269,6 +269,17 @@ body {
   #container .product .product-list li .name {
     font-size: 1.6rem;
   }
+
+  /*제품 상세페이지*/
+  #container .detail-container {
+    max-width: 1200px;
+    gap: 60px;
+  }
+
+  /*제품 상세 탭*/
+  #container .detail-tabs {
+    max-width: 1200px;
+  }
 }
 
 /* =========================================
@@ -498,6 +509,11 @@ body {
 
   body.sub-page #container .brand-content .value .value-list p {
     line-height: 28px;
+  }
+
+  /*제품 상세페이지*/
+  #container .detail-tabs #detail-content {
+    max-width: 860px;
   }
 }
 
@@ -1055,6 +1071,98 @@ body {
   #container .product .pagination {
     margin: 60px 0 136px;
   }
+
+  /*제품 상세페이지*/
+  #container .detail-container {
+    margin: 120px auto 100px;
+    padding: 0 20px;
+    max-width: 1024px;
+    gap: 40px;
+  }
+
+  /*좌측 이미지영역*/
+  #container .detail-container .image-area {
+    max-width: 472px;
+  }
+
+  /*우측 제품정보 영역*/
+  #container .detail-container .info-area {
+    max-width: 472px;
+  }
+
+  #container .detail-container .info-area br {
+    display: none;
+  }
+
+  #container .detail-container .info-area .header {
+    margin-bottom: 40px;
+  }
+
+  #container .detail-container .info-area img {
+    width: 40px;
+  }
+
+  #container .detail-container .info-area .btn-share>img {
+    width: 24px;
+  }
+
+  #container .detail-container .info-area h3 {
+    font-size: 2.6rem;
+  }
+
+  #container .detail-container .info-area b {
+    font-size: 1.8rem;
+  }
+
+  #container .detail-container .info-area .description em {
+    font-size: 1.8rem;
+  }
+
+  #container .detail-container .info-area .description ul {
+    margin: 14px 0;
+  }
+
+  #container .detail-container .info-area .description li {
+    padding: 2px 0;
+    font-size: 1.6rem;
+  }
+
+  #container .detail-container .info-area strong {
+    font-size: 2rem;
+  }
+
+  #container .detail-container .info-area .btn-buy {
+    margin-top: 33px;
+    padding: 14px 0 13px;
+    font-size: 1.8rem;
+  }
+
+  #container .detail-tabs .tab-nav .tab-link {
+    padding: 15px 80px;
+    font-size: 1.7rem;
+  }
+
+  #container .detail-tabs .tab-nav .tab-link.active {
+    font-size: 1.7rem;
+  }
+
+  #container .detail-tabs .fixed-tab-wrapper {
+    padding-top: 50px;
+  }
+
+  #container .detail-tabs .info-notice {
+    padding: 0 30px;
+  }
+
+  #container .detail-tabs .info-notice h4 {
+    font-size: 1.8rem;
+  }
+
+  /* DT (항목명) 및 DD (내용) 공통 스타일 */
+  #container .detail-tabs .info-notice .info-list dt,
+  #container .detail-tabs .info-notice .info-list dd {
+    padding: 16px 24px 14px;
+  }
 }
 
 /* =========================================
@@ -1385,6 +1493,57 @@ body {
 
   #container .product .product-list li {
     width: calc((100% - 12px) / 2);
+  }
+
+  /*제품 상세페이지*/
+  #container .detail-container {
+    margin: 98px auto;
+    gap: 32px;
+  }
+
+  /*우측 제품정보 영역*/
+  #container .detail-container .info-area .header {
+    margin-bottom: 24px;
+  }
+
+  #container .detail-container .info-area h3 {
+    font-size: 2rem;
+  }
+
+  #container .detail-container .info-area b {
+    font-size: 1.5rem;
+  }
+
+  #container .detail-container .info-area .line {
+    padding: 20px 0 8px;
+  }
+
+  #container .detail-container .info-area .description em {
+    font-size: 1.4rem;
+  }
+
+  #container .detail-container .info-area .description ul {
+    margin: 6px 0;
+  }
+
+  #container .detail-container .info-area .description li {
+    padding: 2px 0;
+    font-size: 1.2rem;
+  }
+
+  #container .detail-container .info-area strong {
+    font-size: 1.6rem;
+  }
+
+  #container .detail-container .info-area .btn-buy {
+    margin-top: 18px;
+    padding: 9px 0 8px;
+    font-size: 1.4rem;
+  }
+
+  #container .detail-tabs #detail-content {
+    padding: 0 60px;
+    max-width: 768px;
   }
 }
 
@@ -1727,22 +1886,22 @@ body {
     padding: 8px;
   }
 
-  #container .product-type .cate-list .active::after{
+  #container .product-type .cate-list .active::after {
     width: 20px;
   }
 
   #container .product-type .filter {
-  font-size: 1.4rem;
+    font-size: 1.4rem;
   }
 
   /*제품소개list*/
-  #container .product .list-header{
+  #container .product .list-header {
     margin-bottom: 12px;
   }
 
   #container .product .list-header .item-count {
-  font-size: 1.4rem;
-}
+    font-size: 1.4rem;
+  }
 
   #container .product .list-header .sort-dropdown select {
     padding: 7px;
@@ -1775,12 +1934,47 @@ body {
     margin: 48px 0 100px;
   }
 
-  #container .product .pagination .list img{
+  #container .product .pagination .list img {
     width: 14px;
   }
 
-  #container .product .pagination .list a{
+  #container .product .pagination .list a {
     font-size: 1.4rem;
+  }
+
+  /*제품 상세페이지*/
+  #container .detail-container {
+    display: block;
+    margin: 48px auto;
+    padding: 0 24px;
+  }
+
+  /*우측 제품정보 영역*/
+  #container .detail-container .info-area {
+    margin-top: 24px;
+  }
+
+  /*제품 상세 탭*/
+  #container .detail-tabs {
+    margin: 40px auto 60px;
+  }
+
+  #container .detail-tabs #detail-content {
+    margin: 0 auto 80px;
+    padding: 0 30px;
+  }
+
+  #container .detail-tabs .tab-nav .tab-link {
+    padding: 10px 58px;
+    font-size: 1.3rem;
+  }
+
+  #container .detail-tabs .tab-nav .tab-link.active {
+    font-size: 1.3rem;
+  }
+
+  #container .detail-tabs .fixed-tab-wrapper {
+    padding-top: 32px;
   }
 }
 
@@ -2113,5 +2307,50 @@ body {
   #container .product .product-list li .price {
     margin-top: 2px;
     font-size: 1.2rem;
+  }
+
+  /*제품 상세페이지*/
+  #container .detail-container {
+    display: block;
+    margin: 28px auto;
+    padding: 0 18px;
+  }
+
+  /*제품 상세 탭*/
+  #container .detail-tabs #detail-content {
+    padding: 0 18px;
+  }
+
+  #container .detail-tabs .tab-nav .tab-link {
+    padding: 8px 38px;
+  }
+
+  #container .detail-tabs .tab-nav .tab-link.active {
+    margin-bottom: -1px;
+    border-bottom: 1px solid #193D35;
+  }
+
+  #container .detail-tabs .info-notice {
+    padding: 0 18px;
+  }
+
+  #container .detail-tabs .info-notice h4 {
+    margin-bottom: 12px;
+    font-size: 1.4rem;
+  }
+
+  /* DL 리스트 전체 설정 */
+  #container .detail-tabs .info-notice .info-list {
+    font-size: 1.2rem;
+  }
+
+  #container .detail-tabs .info-notice .info-list dt {
+    font-weight: 400;
+  }
+
+  /* DT (항목명) 및 DD (내용) 공통 스타일 */
+  #container .detail-tabs .info-notice .info-list dt,
+  #container .detail-tabs .info-notice .info-list dd {
+    padding: 7px 8px 5px;
   }
 }

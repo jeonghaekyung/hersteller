@@ -478,7 +478,6 @@
   justify-content: center;
   border-bottom: 1px solid #E0E0E0;
   position: sticky;
-  /* Sticky 속성 활성화 */
   top: 0;
   /* 뷰포트 상단 0px 지점에 닿으면 고정 시작 */
   z-index: 100;
