@@ -251,6 +251,24 @@ body {
   body.sub-page #container .brand-slogan {
     margin: 132px 0 142px;
   }
+
+  /*제품소개list*/
+  #container .product {
+    max-width: 1200px;
+  }
+
+  #container .product .list-header .sort-dropdown select {
+    padding: 10px;
+    font-size: 1.4rem;
+  }
+
+  #container .product .product-list li img {
+    height: 282px;
+  }
+
+  #container .product .product-list li .name {
+    font-size: 1.6rem;
+  }
 }
 
 /* =========================================
@@ -1001,6 +1019,42 @@ body {
     font-size: 1.8rem;
     line-height: 36px;
   }
+
+  /*제품유형 선택*/
+  #container .product-type {
+    margin: 98px 0 42px;
+  }
+
+  #container .product-type .filter {
+    margin-bottom: 18px;
+  }
+
+  #container .product-type .cate-list {
+    font-size: 1.4rem;
+  }
+
+  /*제품소개list*/
+  #container .product {
+    max-width: 920px;
+  }
+
+  #container .product .product-list {
+    gap: 36px 12px
+  }
+
+  #container .product .product-list li {
+    width: calc((100% - 24px) / 3);
+  }
+
+  #container .product .product-list li img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /*페이지네이션*/
+  #container .product .pagination {
+    margin: 60px 0 136px;
+  }
 }
 
 /* =========================================
@@ -1078,6 +1132,11 @@ body {
 
   body.sub-page #container .brand-content .value .value-list p {
     line-height: 22px;
+  }
+
+  /*제품소개list*/
+  #container .product .list-header .sort-dropdown select {
+    font-size: 1.3rem;
   }
 }
 
@@ -1315,6 +1374,17 @@ body {
   body.sub-page #container .brand-content .value span,
   body.sub-page #container .brand-content .value img {
     max-width: 708px;
+  }
+
+  /*제품소개list*/
+  #container .product {
+    padding: 0 16px;
+    max-width: 736px;
+    width: 100%;
+  }
+
+  #container .product .product-list li {
+    width: calc((100% - 12px) / 2);
   }
 }
 
@@ -1639,6 +1709,79 @@ body {
     font-size: 1.5rem;
     line-height: 28px;
   }
+
+  /*제품유형 선택*/
+  #container .product-type {
+    margin: 74px 0 32px;
+  }
+
+  #container .product-type .filter {
+    margin-bottom: 18px;
+  }
+
+  #container .product-type .cate-list {
+    font-size: 1.2rem;
+  }
+
+  #container .product-type .cate-list li a {
+    padding: 8px;
+  }
+
+  #container .product-type .cate-list .active::after{
+    width: 20px;
+  }
+
+  #container .product-type .filter {
+  font-size: 1.4rem;
+  }
+
+  /*제품소개list*/
+  #container .product .list-header{
+    margin-bottom: 12px;
+  }
+
+  #container .product .list-header .item-count {
+  font-size: 1.4rem;
+}
+
+  #container .product .list-header .sort-dropdown select {
+    padding: 7px;
+    font-size: 1.2rem;
+  }
+
+  #container .product .product-list .product-image {
+    padding: 0;
+  }
+
+  #container .product .product-list li .info {
+    padding: 16px;
+  }
+
+  #container .product .product-list li .name {
+    font-size: 1.4rem;
+  }
+
+  #container .product .product-list li .desc {
+    font-size: 1.2rem;
+  }
+
+  #container .product .product-list li .price {
+    margin-top: 4px;
+    font-size: 1.4rem;
+  }
+
+  /*페이지네이션*/
+  #container .product .pagination {
+    margin: 48px 0 100px;
+  }
+
+  #container .product .pagination .list img{
+    width: 14px;
+  }
+
+  #container .product .pagination .list a{
+    font-size: 1.4rem;
+  }
 }
 
 /* =========================================
@@ -1862,7 +2005,7 @@ body {
   body.sub-page #container .sub_visual .txt_box strong,
   #container .sub_visual .txt_box strong {
     margin: 216px 0 14px;
-    font-size: 2.4rem;    
+    font-size: 2.4rem;
   }
 
   body.sub-page #container .sub_visual .txt_box p,
@@ -1939,5 +2082,36 @@ body {
   body.sub-page #container .brand-slogan p {
     font-size: 1.4rem;
     line-height: 30px;
+  }
+
+  /*제품유형 선택*/
+  #container .product-type {
+    margin: 52px 0 32px;
+  }
+
+  #container .product-type .cate-list {
+    font-size: 1.1rem;
+  }
+
+  #container .product-type .cate-list li a {
+    padding: 4px;
+  }
+
+  /*제품소개list*/
+  #container .product .product-list li .info {
+    padding: 10px;
+  }
+
+  #container .product .product-list li .name {
+    font-size: 1.2rem;
+  }
+
+  #container .product .product-list li .desc {
+    margin-top: 0;
+  }
+
+  #container .product .product-list li .price {
+    margin-top: 2px;
+    font-size: 1.2rem;
   }
 }

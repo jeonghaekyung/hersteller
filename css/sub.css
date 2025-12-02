@@ -294,7 +294,7 @@
 #container .product .product-list .product-image {
   display: flex;
   align-items: center;
-  height: 380px;
+  padding: 20px 0;
   background-color: #F9F9F9;
   transition: background-color 0.3s linear;
 }
@@ -305,6 +305,7 @@
 
 #container .product .product-list li .info {
   padding: 22px 25px;
+  word-break: keep-all;
 }
 
 #container .product .product-list li .name {
@@ -481,7 +482,6 @@
   top: 0;
   /* 뷰포트 상단 0px 지점에 닿으면 고정 시작 */
   z-index: 100;
-  /* 다른 요소 위에 탭이 보이도록 z-index 설정 */
   background-color: #FFFFFF;
 }
 
