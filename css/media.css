@@ -280,6 +280,16 @@ body {
   #container .detail-tabs {
     max-width: 1200px;
   }
+
+  /*이벤트*/
+  #container .event {
+    margin: 110px auto;
+    max-width: 1200px;
+  }
+
+  #container .event .event-list .tab_content ul li img {
+    width: 100%;
+  }
 }
 
 /* =========================================
@@ -1163,6 +1173,71 @@ body {
   #container .detail-tabs .info-notice .info-list dd {
     padding: 16px 24px 14px;
   }
+
+  /*이벤트*/
+  #container .event {
+    margin: 98px auto;
+    max-width: 920px;
+  }
+
+  /*이벤트 탭*/
+  #container .event .tabs {
+    margin: 0 auto 36px;
+  }
+
+  #container .event .tabs li {
+    padding-bottom: 14px;
+    font-size: 1.8rem;
+  }
+
+  /*이벤트 리스트*/
+  #container .event .event-list .tab_content ul {
+    column-gap: 18px;
+    row-gap: 60px;
+  }
+
+  #container .event .event-list .tab_content .event-info {
+    padding-top: 26px;
+  }
+
+  #container .event .event-list .tab_content .event-info .title {
+    font-size: 1.6rem;
+  }
+
+  #container .event .event-list .tab_content .event-info .date {
+    font-size: 1.4rem;
+    line-height: 30px;
+  }
+
+  /*검색*/
+  #container .event .search {
+    margin-top: 68px;
+    padding-top: 18px;
+    gap: 4px;
+  }
+
+  #container .event .search .dropdown select {
+    padding: 10px;
+    width: 134px;
+    font-size: 1.2rem;
+  }
+
+  #container .event .search .input-box .search-input {
+    padding: 11px;
+    width: 400px;
+    font-size: 1.2rem;
+  }
+
+  #container .event .search .search-btn {
+    height: 41px;
+    width: 72px;
+    font-size: 1.2rem;
+  }
+
+  /*페이지네이션*/
+  #container .event .pagination {
+    margin: 62px 0 140px;
+  }
 }
 
 /* =========================================
@@ -1544,6 +1619,41 @@ body {
   #container .detail-tabs #detail-content {
     padding: 0 60px;
     max-width: 768px;
+  }
+
+  /*이벤트 탭*/
+  #container .event .tabs {
+    max-width: 468px;
+  }
+
+  #container .event .tabs li {
+    padding-bottom: 10px;
+    font-size: 1.4rem;
+  }
+
+  /*이벤트 리스트*/
+  #container .event .event-list .tab_content ul {
+    display: block;
+    padding: 0 60px;
+  }
+
+  #container .event .event-list .tab_content ul li {
+    padding-bottom: 48px;
+    max-width: 708px;
+    width: 100%;
+  }
+
+  /*검색*/
+  #container .event .search {
+    margin-top: 20px;
+  }
+
+  #container .event .search .dropdown select {
+    width: 100px;
+  }
+
+  #container .event .search .input-box .search-input {
+    width: 320px;
   }
 }
 
@@ -1980,6 +2090,50 @@ body {
   #container .detail-tabs .fixed-tab-wrapper {
     padding-top: 32px;
   }
+
+  /*이벤트*/
+  #container .event {
+    margin: 78px auto;
+  }
+
+  /*이벤트 탭*/
+  #container .event .tabs {
+    padding: 0 30px;
+  }
+
+  /*이벤트 리스트*/
+  #container .event .event-list .tab_content ul {
+    padding: 0 30px;
+  }
+
+  /*검색*/
+  #container .event .search {
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 420px;
+    width: 100%;
+  }
+
+  #container .event .search .dropdown select {
+    width: 208px;
+  }
+
+  #container .event .search .input-box .search-input {
+    width: 344px;
+  }
+
+  /*페이지네이션*/
+  #container .event .pagination {
+    margin: 48px 0 100px;
+  }
+
+  #container .event .pagination .list img {
+    width: 14px;
+  }
+
+  #container .event .pagination .list a {
+    font-size: 1.4rem;
+  }
 }
 
 /* =========================================
@@ -2360,5 +2514,61 @@ body {
   #container .detail-tabs .info-notice .info-list dt,
   #container .detail-tabs .info-notice .info-list dd {
     padding: 7px 8px 5px;
+  }
+
+  /*이벤트*/
+  #container .event {
+    margin: 72px auto;
+  }
+
+  /*이벤트 탭*/
+  #container .event .tabs {
+    margin: 0 auto 20px;
+    padding: 0 16px;
+  }
+
+  #container .event .tabs li {
+    padding-bottom: 7px;
+    font-size: 1.3rem;
+    border-bottom: 1px solid #aaa;
+  }
+
+  #container .event .tabs li.on {
+    border-bottom: 1px solid #193D35;
+  }
+
+  /*이벤트 리스트*/
+  #container .event .event-list .tab_content ul {
+    padding: 0 16px;
+  }
+
+  #container .event .event-list .tab_content ul li {
+    padding-bottom: 36px;
+  }
+
+  #container .event .event-list .tab_content .event-info {
+    padding-top: 18px;
+  }
+
+  #container .event .event-list .tab_content .event-info .title {
+    font-size: 1.4rem;
+  }
+
+  #container .event .event-list .tab_content .event-info .date {
+    font-size: 1.2rem;
+    line-height: 26px;
+  }
+
+  /*검색*/
+  #container .event .search {
+    max-width: 328px;
+  }
+
+  #container .event .search .dropdown select {
+    width: 160px;
+  }
+
+  #container .event .search .input-box .search-input {
+    width: 248px;
   }
 }
