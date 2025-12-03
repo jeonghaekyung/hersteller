@@ -1951,7 +1951,11 @@ body {
 
   /*우측 제품정보 영역*/
   #container .detail-container .info-area {
-    margin-top: 24px;
+    margin-top: 54px;
+  }
+
+  #container .detail-container .info-area .btn-buy {
+    margin-top: 30px;
   }
 
   /*제품 상세 탭*/
@@ -2314,6 +2318,10 @@ body {
     display: block;
     margin: 28px auto;
     padding: 0 18px;
+  }
+
+  #container .detail-container .info-area .description li {
+    padding: 0;
   }
 
   /*제품 상세 탭*/
