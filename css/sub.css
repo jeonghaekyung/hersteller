@@ -270,6 +270,7 @@
   font-family: 'S-Core Dream';
   font-size: 1.5rem;
   color: #333;
+  background-color: #fff;
 }
 
 #container .product .list-header .sort-dropdown select:focus {
