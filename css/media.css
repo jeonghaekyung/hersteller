@@ -1733,6 +1733,11 @@ body {
     font-size: 1.3rem;
   }
 
+  #container .contact .contact-form .privacy input[type="checkbox"] {
+    transform: scale(1.5);
+    margin: 24px 8px 40px 4px;
+  }
+
   #container .contact .contact-form textarea {
     font-size: 1.3rem;
   }
@@ -2222,7 +2227,7 @@ body {
   }
 
   #container .contact h3 {
-    margin-bottom: 6px;
+    margin-bottom: 10px;
     font-size: 2.4rem;
   }
 
@@ -2248,7 +2253,12 @@ body {
   #container .contact .contact-form .privacy p {
     line-height: 22px;
   }
-  
+
+  #container .contact .contact-form .privacy input[type="checkbox"] {
+    transform: scale(1.5);
+    margin: 20px 8px 36px 4px;
+  }
+
   #container .contact .contact-form .privacy .consent-checkbox span {
     font-size: 1.4rem;
   }
@@ -2693,5 +2703,68 @@ body {
 
   #container .event .search .input-box .search-input {
     width: 248px;
+  }
+
+  /*문의하기*/
+  #container .contact h3 {
+    font-size: 1.8rem;
+  }
+
+  #container .contact em {
+    margin-bottom: 16px;
+    padding: 0 48px;
+    font-size: 1.2rem;
+  }
+
+  #container .contact .contact-form .field-row {
+    display: block;
+  }
+
+  #container .contact .contact-form .field-row .required {
+    margin-bottom: 12px;
+  }
+
+  #container .contact .contact-form .form-field {
+    margin-bottom: 12px;
+  }
+
+  #container .contact .contact-form label {
+    margin-bottom: 4px;
+    font-size: 1.3rem;
+  }
+
+  #container .contact .contact-form .required-star {
+    padding-left: 3px;
+    font-size: 1.3rem;
+  }
+
+  #container .contact .contact-form textarea#content {
+    height: 120px;
+  }
+
+  #container .contact .contact-form .privacy strong {
+    font-size: 1.3rem;
+  }
+
+  #container .contact .contact-form .privacy p {
+    font-size: 1.2rem;
+    line-height: 20px;
+  }
+
+  #container .contact .contact-form .privacy input[type="checkbox"] {
+    transform: scale(1.2);
+    margin: 16px 0 32px 4px;
+  }
+
+  #container .contact .contact-form .privacy .agreement-box {
+    padding: 8px;
+  }
+
+  #container .contact .contact-form .privacy .agreement-box br {
+    display: none;
+  }
+
+  #container .contact .contact-form .privacy .consent-checkbox span {
+    font-size: 1.3rem;
   }
 }
