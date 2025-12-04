@@ -849,7 +849,7 @@
   min-height: 350px;
   padding: 30px 22px 50px;
   font-size: 1.8rem;
-  line-height: 2;
+  line-height: 34px;
   color: #333;
   border-bottom: 1px solid #E0E0E0;
   word-break: keep-all;
@@ -1104,8 +1104,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 85px;
-  padding-top: 25px;
+  margin-top: 26px;
   gap: 8px;
 }
 
