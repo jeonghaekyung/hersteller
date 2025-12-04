@@ -1238,6 +1238,50 @@ body {
   #container .event .pagination {
     margin: 62px 0 140px;
   }
+
+  /*문의하기*/
+  #container .contact {
+    margin: 98px auto 30px;
+  }
+
+  #container .contact h3 {
+    font-size: 3.2rem;
+  }
+
+  #container .contact em {
+    margin-bottom: 60px;
+    font-size: 1.6rem;
+  }
+
+  #container .contact .contact-form {
+    padding: 20px 144px 120px;
+    border: 0;
+    font-size: 1.4rem;
+  }
+
+  #container .contact .contact-form label {
+    margin-bottom: 6px;
+    font-size: 1.6rem;
+  }
+
+  #container .contact .contact-form .privacy strong {
+    margin-bottom: 6px;
+    font-size: 1.6rem;
+  }
+
+  #container .contact .contact-form .privacy .agreement-box {
+    padding: 13px;
+  }
+
+  #container .contact .contact-form .privacy .consent-checkbox span {
+    font-size: 1.6rem;
+  }
+
+  #container .contact .contact-form .submit-button {
+    padding: 14px 0;
+    width: 100%;
+    font-size: 1.6rem;
+  }
 }
 
 /* =========================================
@@ -1320,6 +1364,11 @@ body {
   /*제품소개list*/
   #container .product .list-header .sort-dropdown select {
     font-size: 1.3rem;
+  }
+
+  /*문의하기*/
+  #container .contact .contact-form {
+    padding: 20px 100px 120px;
   }
 }
 
@@ -1654,6 +1703,38 @@ body {
 
   #container .event .search .input-box .search-input {
     width: 320px;
+  }
+
+  /*문의하기*/
+  #container .contact em {
+    margin-bottom: 48px;
+  }
+
+  #container .contact .contact-form {
+    padding: 20px 60px 120px;
+    font-size: 1.2rem;
+  }
+
+  #container .contact .contact-form label {
+    margin-bottom: 6px;
+    font-size: 1.4rem;
+  }
+
+  #container .contact .contact-form .field-row {
+    column-gap: 12px;
+  }
+
+  #container .contact .contact-form input[type="text"],
+  #container .contact .contact-form select {
+    font-size: 1.3rem;
+  }
+
+  #container .contact .contact-form .privacy p {
+    font-size: 1.3rem;
+  }
+
+  #container .contact .contact-form textarea {
+    font-size: 1.3rem;
   }
 }
 
@@ -2133,6 +2214,48 @@ body {
 
   #container .event .pagination .list a {
     font-size: 1.4rem;
+  }
+
+  /*문의하기*/
+  #container .contact {
+    margin: 74px auto 30px;
+  }
+
+  #container .contact h3 {
+    margin-bottom: 6px;
+    font-size: 2.4rem;
+  }
+
+  #container .contact em {
+    margin-bottom: 32px;
+    font-size: 1.2rem;
+  }
+
+  #container .contact .contact-form {
+    padding: 20px 20px 60px;
+  }
+
+  #container .contact .contact-form input[type="text"],
+  #container .contact .contact-form select {
+    padding: 3px;
+    font-size: 1.2rem;
+  }
+
+  #container .contact .contact-form .privacy strong {
+    font-size: 1.4rem;
+  }
+
+  #container .contact .contact-form .privacy p {
+    line-height: 22px;
+  }
+  
+  #container .contact .contact-form .privacy .consent-checkbox span {
+    font-size: 1.4rem;
+  }
+
+  #container .contact .contact-form .submit-button {
+    padding: 9px 0;
+    font-size: 1.3rem;
   }
 }
 
