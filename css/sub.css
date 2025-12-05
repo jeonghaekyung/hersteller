@@ -1117,6 +1117,7 @@
   font-size: 1.4rem;
   font-weight: 500;
   color: #333;
+  background-color: #fff;
 }
 
 #container .search .input-box .search-input {
@@ -1127,6 +1128,7 @@
   font-size: 1.4rem;
   font-weight: 500;
   color: #333;
+  background-color: #fff;
 }
 
 #container .search .dropdown select:focus,
